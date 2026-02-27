@@ -1,0 +1,1192 @@
+{
+  "geometricType": "Point",
+  "name": "NYC_Issued_Licenses",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "nb_rows": 10479,
+  "nb_profiled_rows": 10479,
+  "nb_columns": 32,
+  "columns": [
+    {
+      "name": "License Number",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "num_distinct_values": 10479
+    },
+    {
+      "name": "Business Name",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Text"
+      ]
+    },
+    {
+      "name": "DBA/Trade Name",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.8128638228838629,
+      "num_distinct_values": 1628
+    },
+    {
+      "name": "Business Unique ID",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "num_distinct_values": 10094
+    },
+    {
+      "name": "Business Category",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 37
+    },
+    {
+      "name": "License Type",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 2
+    },
+    {
+      "name": "License Status",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 9
+    },
+    {
+      "name": "Initial Issuance Date",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/DateTime"
+      ],
+      "num_distinct_values": 4421
+    },
+    {
+      "name": "Expiration Date",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration",
+        "http://schema.org/DateTime"
+      ],
+      "missing_values_ratio": 0.0006680026720106881,
+      "num_distinct_values": 120
+    },
+    {
+      "name": "Details",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Text"
+      ],
+      "missing_values_ratio": 0.877469224162611
+    },
+    {
+      "name": "Contact Phone",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.04504246588414925,
+      "num_distinct_values": 8591
+    },
+    {
+      "name": "Address Type",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 4
+    },
+    {
+      "name": "Building Number",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.018226930050577347,
+      "num_distinct_values": 4827
+    },
+    {
+      "name": "Street1",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "num_distinct_values": 3246
+    },
+    {
+      "name": "Street2",
+      "structural_type": "https://metadata.datadrivendiscovery.org/types/MissingData",
+      "semantic_types": []
+    },
+    {
+      "name": "Street3",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.9998091420937112,
+      "num_distinct_values": 1
+    },
+    {
+      "name": "Unit Type",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.835480484779082,
+      "num_distinct_values": 17
+    },
+    {
+      "name": "Apt/Suite",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.8405382192957344,
+      "num_distinct_values": 557
+    },
+    {
+      "name": "City",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 251
+    },
+    {
+      "name": "State",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 22
+    },
+    {
+      "name": "ZIP Code",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.00047714476572192005,
+      "missing_values_ratio": 9.542895314438401e-05,
+      "num_distinct_values": 371,
+      "mean": 50636.91616537764,
+      "stddev": 2030697.9983909626,
+      "coverage": [
+        {
+          "range": {
+            "gte": 10011.0,
+            "lte": 11432.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Borough",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.018226930050577347,
+      "num_distinct_values": 6
+    },
+    {
+      "name": "Community Board",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.024716098864395457,
+      "num_distinct_values": 64,
+      "mean": 293.2416829745597,
+      "stddev": 124.68531624214735,
+      "coverage": [
+        {
+          "range": {
+            "gte": 102.0,
+            "lte": 211.0
+          }
+        },
+        {
+          "range": {
+            "gte": 301.0,
+            "lte": 318.0
+          }
+        },
+        {
+          "range": {
+            "gte": 401.0,
+            "lte": 503.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Council District",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.02481152781753984,
+      "num_distinct_values": 51,
+      "mean": 25.337508562481652,
+      "stddev": 15.306219440278532,
+      "coverage": [
+        {
+          "range": {
+            "gte": 1.0,
+            "lte": 15.0
+          }
+        },
+        {
+          "range": {
+            "gte": 17.0,
+            "lte": 34.0
+          }
+        },
+        {
+          "range": {
+            "gte": 36.0,
+            "lte": 51.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "BIN",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.05239049527626682,
+      "num_distinct_values": 8551,
+      "mean": 3012881.5778449145,
+      "stddev": 1284409.037117943,
+      "coverage": [
+        {
+          "range": {
+            "gte": 1004296.0,
+            "lte": 2095394.0
+          }
+        },
+        {
+          "range": {
+            "gte": 3010204.0,
+            "lte": 3395815.0
+          }
+        },
+        {
+          "range": {
+            "gte": 4005323.0,
+            "lte": 5093255.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "BBL",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.05239049527626682,
+      "num_distinct_values": 8604,
+      "mean": 2930522221.26425,
+      "stddev": 1248065856.3879254,
+      "coverage": [
+        {
+          "range": {
+            "gte": 1001457501.0,
+            "lte": 1021410017.0
+          }
+        },
+        {
+          "range": {
+            "gte": 2026230151.0,
+            "lte": 3078470052.0
+          }
+        },
+        {
+          "range": {
+            "gte": 4005180046.0,
+            "lte": 5045007501.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NTA",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.0441836053058498,
+      "num_distinct_values": 193
+    },
+    {
+      "name": "Census Block (2010)",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.04427903425899418,
+      "num_distinct_values": 195,
+      "mean": 2100.1049425861206,
+      "stddev": 1265.4521227048601,
+      "coverage": [
+        {
+          "range": {
+            "gte": 1000.0,
+            "lte": 1016.0
+          }
+        },
+        {
+          "range": {
+            "gte": 2000.0,
+            "lte": 2013.0
+          }
+        },
+        {
+          "range": {
+            "gte": 3000.0,
+            "lte": 6001.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Census Tract (2010)",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.024906956770684226,
+      "num_distinct_values": 1205,
+      "mean": 6958.434429438246,
+      "stddev": 21254.16614059511,
+      "coverage": [
+        {
+          "range": {
+            "gte": 33.0,
+            "lte": 4002.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Latitude",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/latitude"
+      ],
+      "unclean_values_ratio": 0.0,
+      "mean": 40.706831406622754,
+      "stddev": 0.45693004707936474,
+      "coverage": [
+        {
+          "range": {
+            "gte": 40.5882,
+            "lte": 40.86221
+          }
+        }
+      ]
+    },
+    {
+      "name": "Longitude",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/longitude"
+      ],
+      "unclean_values_ratio": 0.0,
+      "mean": -73.95384201068812,
+      "stddev": 2.244850290107279,
+      "coverage": [
+        {
+          "range": {
+            "gte": -74.11013,
+            "lte": -73.768302
+          }
+        }
+      ]
+    },
+    {
+      "name": "geometry",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "point_format": "long,lat",
+      "unclean_values_ratio": 0.0
+    }
+  ],
+  "nb_spatial_columns": 3,
+  "nb_temporal_columns": 2,
+  "nb_categorical_columns": 9,
+  "nb_numerical_columns": 7,
+  "types": [
+    "categorical",
+    "numerical",
+    "spatial",
+    "temporal"
+  ],
+  "spatial_coverage": [
+    {
+      "type": "latlong",
+      "column_names": [
+        "Latitude",
+        "Longitude"
+      ],
+      "column_indexes": [
+        29,
+        30
+      ],
+      "geohashes4": [
+        {
+          "hash": "1211302313",
+          "number": 6095
+        },
+        {
+          "hash": "1211302310",
+          "number": 123
+        },
+        {
+          "hash": "1211302312",
+          "number": 758
+        },
+        {
+          "hash": "1211302311",
+          "number": 3
+        },
+        {
+          "hash": "1211302331",
+          "number": 1245
+        },
+        {
+          "hash": "1211302330",
+          "number": 52
+        },
+        {
+          "hash": "1211302333",
+          "number": 26
+        },
+        {
+          "hash": "1211302132",
+          "number": 1
+        },
+        {
+          "hash": "1211302130",
+          "number": 1
+        },
+        {
+          "hash": "1211302013",
+          "number": 1
+        },
+        {
+          "hash": "1211302213",
+          "number": 1
+        },
+        {
+          "hash": "1211303202",
+          "number": 1953
+        },
+        {
+          "hash": "1211303203",
+          "number": 12
+        },
+        {
+          "hash": "1211303220",
+          "number": 119
+        },
+        {
+          "hash": "1211303222",
+          "number": 14
+        },
+        {
+          "hash": "1211303221",
+          "number": 4
+        },
+        {
+          "hash": "1211303232",
+          "number": 2
+        },
+        {
+          "hash": "1211303231",
+          "number": 3
+        },
+        {
+          "hash": "1211303233",
+          "number": 1
+        },
+        {
+          "hash": "1211303211",
+          "number": 2
+        },
+        {
+          "hash": "1211303212",
+          "number": 3
+        },
+        {
+          "hash": "1211303122",
+          "number": 1
+        },
+        {
+          "hash": "1211303123",
+          "number": 1
+        },
+        {
+          "hash": "1211303302",
+          "number": 1
+        },
+        {
+          "hash": "1211303303",
+          "number": 1
+        },
+        {
+          "hash": "1211303011",
+          "number": 1
+        },
+        {
+          "hash": "1211321000",
+          "number": 6
+        },
+        {
+          "hash": "1211321002",
+          "number": 1
+        },
+        {
+          "hash": "1211321021",
+          "number": 1
+        },
+        {
+          "hash": "1211321100",
+          "number": 1
+        },
+        {
+          "hash": "1211320111",
+          "number": 1
+        },
+        {
+          "hash": "1211310122",
+          "number": 1
+        },
+        {
+          "hash": "1211310120",
+          "number": 2
+        },
+        {
+          "hash": "1211310101",
+          "number": 1
+        },
+        {
+          "hash": "1211310323",
+          "number": 1
+        },
+        {
+          "hash": "1211312220",
+          "number": 1
+        },
+        {
+          "hash": "1211312230",
+          "number": 1
+        },
+        {
+          "hash": "1211312231",
+          "number": 1
+        },
+        {
+          "hash": "1211312333",
+          "number": 1
+        },
+        {
+          "hash": "1211101301",
+          "number": 1
+        },
+        {
+          "hash": "1211101313",
+          "number": 1
+        },
+        {
+          "hash": "1211101330",
+          "number": 1
+        },
+        {
+          "hash": "1211130023",
+          "number": 1
+        },
+        {
+          "hash": "1211130022",
+          "number": 1
+        },
+        {
+          "hash": "1211130032",
+          "number": 1
+        },
+        {
+          "hash": "1211123011",
+          "number": 1
+        },
+        {
+          "hash": "1211022333",
+          "number": 1
+        },
+        {
+          "hash": "1211020312",
+          "number": 2
+        },
+        {
+          "hash": "1211003112",
+          "number": 1
+        },
+        {
+          "hash": "1211002222",
+          "number": 1
+        },
+        {
+          "hash": "1211210223",
+          "number": 2
+        },
+        {
+          "hash": "1211211123",
+          "number": 1
+        },
+        {
+          "hash": "1210032311",
+          "number": 1
+        },
+        {
+          "hash": "1210032032",
+          "number": 1
+        },
+        {
+          "hash": "1210031313",
+          "number": 2
+        },
+        {
+          "hash": "1032111103",
+          "number": 1
+        },
+        {
+          "hash": "1032111112",
+          "number": 2
+        },
+        {
+          "hash": "1032321000",
+          "number": 1
+        },
+        {
+          "hash": "1032301222",
+          "number": 1
+        },
+        {
+          "hash": "1033233320",
+          "number": 1
+        },
+        {
+          "hash": "1033233103",
+          "number": 1
+        },
+        {
+          "hash": "1033122100",
+          "number": 1
+        },
+        {
+          "hash": "1033020111",
+          "number": 1
+        },
+        {
+          "hash": "1033331331",
+          "number": 1
+        },
+        {
+          "hash": "1031210302",
+          "number": 1
+        },
+        {
+          "hash": "1031331200",
+          "number": 1
+        },
+        {
+          "hash": "1030331120",
+          "number": 1
+        },
+        {
+          "hash": "1030331113",
+          "number": 1
+        },
+        {
+          "hash": "3013320132",
+          "number": 1
+        },
+        {
+          "hash": "3013321200",
+          "number": 1
+        },
+        {
+          "hash": "3001320132",
+          "number": 1
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.11013,
+                40.86207
+              ],
+              [
+                -73.768302,
+                40.58789
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 10479
+    },
+    {
+      "type": "point",
+      "column_names": [
+        "geometry"
+      ],
+      "column_indexes": [
+        31
+      ],
+      "geohashes4": [
+        {
+          "hash": "1211302313",
+          "number": 6095
+        },
+        {
+          "hash": "1211302310",
+          "number": 123
+        },
+        {
+          "hash": "1211302312",
+          "number": 758
+        },
+        {
+          "hash": "1211302311",
+          "number": 3
+        },
+        {
+          "hash": "1211302331",
+          "number": 1245
+        },
+        {
+          "hash": "1211302330",
+          "number": 52
+        },
+        {
+          "hash": "1211302333",
+          "number": 26
+        },
+        {
+          "hash": "1211302132",
+          "number": 1
+        },
+        {
+          "hash": "1211302130",
+          "number": 1
+        },
+        {
+          "hash": "1211302013",
+          "number": 1
+        },
+        {
+          "hash": "1211302213",
+          "number": 1
+        },
+        {
+          "hash": "1211303202",
+          "number": 1953
+        },
+        {
+          "hash": "1211303203",
+          "number": 12
+        },
+        {
+          "hash": "1211303220",
+          "number": 119
+        },
+        {
+          "hash": "1211303222",
+          "number": 14
+        },
+        {
+          "hash": "1211303221",
+          "number": 4
+        },
+        {
+          "hash": "1211303232",
+          "number": 2
+        },
+        {
+          "hash": "1211303231",
+          "number": 3
+        },
+        {
+          "hash": "1211303233",
+          "number": 1
+        },
+        {
+          "hash": "1211303211",
+          "number": 2
+        },
+        {
+          "hash": "1211303212",
+          "number": 3
+        },
+        {
+          "hash": "1211303122",
+          "number": 1
+        },
+        {
+          "hash": "1211303123",
+          "number": 1
+        },
+        {
+          "hash": "1211303302",
+          "number": 1
+        },
+        {
+          "hash": "1211303303",
+          "number": 1
+        },
+        {
+          "hash": "1211303011",
+          "number": 1
+        },
+        {
+          "hash": "1211321000",
+          "number": 6
+        },
+        {
+          "hash": "1211321002",
+          "number": 1
+        },
+        {
+          "hash": "1211321021",
+          "number": 1
+        },
+        {
+          "hash": "1211321100",
+          "number": 1
+        },
+        {
+          "hash": "1211320111",
+          "number": 1
+        },
+        {
+          "hash": "1211310122",
+          "number": 1
+        },
+        {
+          "hash": "1211310120",
+          "number": 2
+        },
+        {
+          "hash": "1211310101",
+          "number": 1
+        },
+        {
+          "hash": "1211310323",
+          "number": 1
+        },
+        {
+          "hash": "1211312220",
+          "number": 1
+        },
+        {
+          "hash": "1211312230",
+          "number": 1
+        },
+        {
+          "hash": "1211312231",
+          "number": 1
+        },
+        {
+          "hash": "1211312333",
+          "number": 1
+        },
+        {
+          "hash": "1211101301",
+          "number": 1
+        },
+        {
+          "hash": "1211101313",
+          "number": 1
+        },
+        {
+          "hash": "1211101330",
+          "number": 1
+        },
+        {
+          "hash": "1211130023",
+          "number": 1
+        },
+        {
+          "hash": "1211130022",
+          "number": 1
+        },
+        {
+          "hash": "1211130032",
+          "number": 1
+        },
+        {
+          "hash": "1211123011",
+          "number": 1
+        },
+        {
+          "hash": "1211022333",
+          "number": 1
+        },
+        {
+          "hash": "1211020312",
+          "number": 2
+        },
+        {
+          "hash": "1211003112",
+          "number": 1
+        },
+        {
+          "hash": "1211002222",
+          "number": 1
+        },
+        {
+          "hash": "1211210223",
+          "number": 2
+        },
+        {
+          "hash": "1211211123",
+          "number": 1
+        },
+        {
+          "hash": "1210032311",
+          "number": 1
+        },
+        {
+          "hash": "1210032032",
+          "number": 1
+        },
+        {
+          "hash": "1210031313",
+          "number": 2
+        },
+        {
+          "hash": "1032111103",
+          "number": 1
+        },
+        {
+          "hash": "1032111112",
+          "number": 2
+        },
+        {
+          "hash": "1032321000",
+          "number": 1
+        },
+        {
+          "hash": "1032301222",
+          "number": 1
+        },
+        {
+          "hash": "1033233320",
+          "number": 1
+        },
+        {
+          "hash": "1033233103",
+          "number": 1
+        },
+        {
+          "hash": "1033122100",
+          "number": 1
+        },
+        {
+          "hash": "1033020111",
+          "number": 1
+        },
+        {
+          "hash": "1033331331",
+          "number": 1
+        },
+        {
+          "hash": "1031210302",
+          "number": 1
+        },
+        {
+          "hash": "1031331200",
+          "number": 1
+        },
+        {
+          "hash": "1030331120",
+          "number": 1
+        },
+        {
+          "hash": "1030331113",
+          "number": 1
+        },
+        {
+          "hash": "3013320132",
+          "number": 1
+        },
+        {
+          "hash": "3013321200",
+          "number": 1
+        },
+        {
+          "hash": "3001320132",
+          "number": 1
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.11013,
+                40.86207
+              ],
+              [
+                -73.768302,
+                40.58789
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 10479
+    }
+  ],
+  "temporal_coverage": [
+    {
+      "type": "datetime",
+      "column_names": [
+        "Initial Issuance Date"
+      ],
+      "column_indexes": [
+        7
+      ],
+      "column_types": [
+        "http://schema.org/DateTime"
+      ],
+      "ranges": [
+        {
+          "range": {
+            "gte": 919728000.0,
+            "lte": 1399248000.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1444953600.0,
+            "lte": 1755043200.0
+          }
+        }
+      ],
+      "temporal_resolution": "day"
+    },
+    {
+      "type": "datetime",
+      "column_names": [
+        "Expiration Date"
+      ],
+      "column_indexes": [
+        8
+      ],
+      "column_types": [
+        "http://schema.org/DateTime"
+      ],
+      "ranges": [
+        {
+          "range": {
+            "gte": 1672444800.0,
+            "lte": 1753920000.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1774915200.0,
+            "lte": 1830211200.0
+          }
+        }
+      ],
+      "temporal_resolution": "day"
+    }
+  ],
+  "attribute_keywords": [
+    "License Number",
+    "License",
+    "Number",
+    "Business Name",
+    "Business",
+    "Name",
+    "DBA/Trade Name",
+    "DBA",
+    "Trade",
+    "Name",
+    "Business Unique ID",
+    "Business",
+    "Unique",
+    "ID",
+    "Business Category",
+    "Business",
+    "Category",
+    "License Type",
+    "License",
+    "Type",
+    "License Status",
+    "License",
+    "Status",
+    "Initial Issuance Date",
+    "Initial",
+    "Issuance",
+    "Date",
+    "Expiration Date",
+    "Expiration",
+    "Date",
+    "Details",
+    "Contact Phone",
+    "Contact",
+    "Phone",
+    "Address Type",
+    "Address",
+    "Type",
+    "Building Number",
+    "Building",
+    "Number",
+    "Street1",
+    "Street",
+    "1",
+    "Street2",
+    "Street",
+    "2",
+    "Street3",
+    "Street",
+    "3",
+    "Unit Type",
+    "Unit",
+    "Type",
+    "Apt/Suite",
+    "Apt",
+    "Suite",
+    "City",
+    "State",
+    "ZIP Code",
+    "ZIP",
+    "Code",
+    "Borough",
+    "Community Board",
+    "Community",
+    "Board",
+    "Council District",
+    "Council",
+    "District",
+    "BIN",
+    "BBL",
+    "NTA",
+    "Census Block (2010)",
+    "Census",
+    "Block",
+    "2010",
+    "",
+    "Census Tract (2010)",
+    "Census",
+    "Tract",
+    "2010",
+    "",
+    "Latitude",
+    "Longitude",
+    "geometry"
+  ],
+  "sample": "License Number,Business Name,DBA/Trade Name,Business Unique ID,Business Category,License Type,License Status,Initial Issuance Date,Expiration Date,Details,Contact Phone,Address Type,Building Number,Street1,Street2,Street3,Unit Type,Apt/Suite,City,State,ZIP Code,Borough,Community Board,Council District,BIN,BBL,NTA,Census Block (2010),Census Tract (2010),Latitude,Longitude,geometry\r\n2097411-1-DCA,GREENPOINT ORGANIC MARKET INC,,BA-1290434-2022,Tobacco Retail Dealer,Premises,Expired,01/05/2021,12/31/2023,,3479812107,Complete Address,626,MANHATTAN AVENUE,,,,,BROOKLYN,NY,11222,Brooklyn,301.0,33.0,3066768.0,3026800054.0,BK76,1001.0,569.0,40.72354,-73.950643,POINT (-73.950643 40.72354)\r\n2103806-DCA,GUTORI TIRES AND RIMS CORP,,BA-1311487-2022,Secondhand Dealer - General,Premises,Active,02/07/2022,07/31/2027,,9293588777,Complete Address,149,BRUCKNER BLVD,,,,,BRONX,NY,10454,Bronx,201.0,8.0,2000019.0,2022610045.0,BX39,1015.0,19.0,40.80371,-73.92004,POINT (-73.92004 40.80371)\r\n1455646-DCA,7 ELEVEN INC,7-ELEVEN STORE #33709J,BA-1111635-2022,Tobacco Retail Dealer,Premises,Expired,02/01/2013,12/31/2022,,732-727-5030,Complete Address,845,FLATBUSH AVENUE,,,,,BROOKLYN,NY,11226,Brooklyn,314.0,40.0,3116704.0,3050860008.0,BK60,2001.0,79602.0,40.65172,-73.959039,POINT (-73.959039 40.65172)\r\n2045584-DCA,SIMPLY TECH INC,,BA-1475675-2022,Secondhand Dealer - General,Premises,Expired,11/16/2016,07/31/2023,,7187697073,Complete Address,3092,BRIGHTON    4 STREET,,,,,BROOKLYN,NY,11235,Brooklyn,313.0,48.0,3245075.0,3086860063.0,BK19,3000.0,36001.0,40.5768,-73.963214,POINT (-73.963214 40.5768)\r\n1377871-DCA,A2A WIRELESS OF NY CORP,,BA-1097560-2022,Electronics Store,Premises,Active,11/27/2010,12/31/2026,,347-529-6140,Complete Address,5416,5TH AVE,,,,,BROOKLYN,NY,11220,Brooklyn,307.0,38.0,3014610.0,3008230045.0,BK32,2000.0,76.0,40.64272,-74.01281,POINT (-74.01281 40.64272)\r\n2115925-DCWP,XR WIRELESS CORP,,BA-1576124-2023,Secondhand Dealer - General,Premises,Expired,08/18/2023,07/31/2025,,9299992900,Complete Address,6508,20TH AVE,,,,,BROOKLYN,NY,11204,Brooklyn,311.0,43.0,3133959.0,3055550035.0,BK28,2000.0,256.0,40.6164,-73.985996,POINT (-73.985996 40.6164)\r\n2126973-1-DCWP,CASITA MARIA DELI CORP.,,BA-1719117-2025,Tobacco Retail Dealer,Premises,Voided,03/03/2025,12/31/2026,,3477912093,Complete Address,1020-1022,East 163rd Street,,,,,Bronx,NY,10459,Bronx,202.0,17.0,2005764.0,2027237501.0,BX27,1001.0,89.0,40.82097,-73.89235,POINT (-73.89235 40.82097)\r\n2081384-DCA,SP PLUS CORPORATION,,BA-1543429-2022,Garage & Parking Lot,Premises,Voided,01/15/2019,03/31/2025,Vehicle Capacity: 450; Bicycle Capacity: 23,2123127542,Complete Address,515,7TH AVE,,,,,NEW YORK,NY,10018,Manhattan,105.0,3.0,1015263.0,1008130064.0,MN17,1001.0,109.0,40.75332,-73.988916,POINT (-73.988916 40.75332)\r\n2051150-2-DCA,KHIZER II AUTO REPAIR INC,,BA-1309797-2022,Tobacco Retail Dealer,Premises,Expired,04/13/2017,12/31/2022,,7184352242,Complete Address,548,CONEY ISLAND AVE,,,,,BROOKLYN,NY,11218,Brooklyn,312.0,40.0,3124814.0,3053430019.0,BK41,1002.0,492.0,40.6441,-73.9702,POINT (-73.9702 40.6441)\r\n2114866-DCA,Melanie Flower Corp,,BA-1600734-2023,Stoop Line Stand,Premises,Expired,07/05/2023,03/31/2024,\"Product Category: Fruits, Vegetables, Flowers, Soft Drinks, Confectionary and Ice Cream; 4 foot stands: 2; 5 foot stands: 0; 5-10 foot...\",3476864834,Complete Address,403,BRIGHTON BEACH AVENUE,,,,,BROOKLYN,NY,11235,Brooklyn,313.0,48.0,3244841.0,3086740074.0,BK19,2000.0,362.0,40.57725,-73.963131,POINT (-73.963131 40.57725)\r\n2103618-DCA,Solid Concept LLC,,BA-1549031-2022,Home Improvement Contractor,Premises,Expired,01/25/2022,02/28/2023,,6264975858,Complete Address,410,W 53RD ST,,,APT,104,NEW YORK,NY,10019,Manhattan,104.0,3.0,1075636.0,1010620019.0,MN15,4001.0,133.0,40.76562,-73.988213,POINT (-73.988213 40.76562)\r\n2097944-DCA,Open Road Tire Shop Corp,,BA-1427936-2022,Secondhand Dealer - General,Premises,Expired,03/05/2021,07/31/2025,,,Complete Address,7102,20TH AVE,,,APT,1,BROOKLYN,NY,11204,Brooklyn,311.0,43.0,3158000.0,3061840037.0,BK28,2000.0,266.0,40.61304,-73.989501,POINT (-73.989501 40.61304)\r\n2115069-2-DCA,SOLIMAN'S GROCERY CORP,,BA-1609978-2023,Tobacco Retail Dealer,Premises,Active,07/13/2023,12/31/2026,,(212) 697-4736,Complete Address,129,EAST 45 STREET,,,STE,6,NEW YORK,Outside USA,10017,Manhattan,106.0,,,,,,,40.75325,-73.974341,POINT (-73.974341 40.75325)\r\n1333561-DCA,RAVIDAS CONSTRUCTION INC.,,BA-1573320-2023,Home Improvement Contractor,Premises,Active,09/21/2009,02/28/2027,,7184269232,Complete Address,3116,60TH ST,,,,,WOODSIDE,NY,11377,Queens,401.0,25.0,4462402.0,4011350043.0,QN63,2006.0,297.0,40.75706,-73.902723,POINT (-73.902723 40.75706)\r\n2110895-DCA,Titans Repairs LLC,,BA-1575555-2023,Home Improvement Contractor,Premises,Active,02/03/2023,02/28/2027,,9292880886,Complete Address,2807,COLLIS PL,,,FL,2,BRONX,NY,10465,Bronx,210.0,13.0,2081120.0,2055920104.0,BX52,3004.0,132.0,40.81478,-73.818571,POINT (-73.818571 40.81478)\r\n2075983-1-DCA,PATEL ENTERPRISES LLC,,BA-1428250-2022,Electronic Cigarette Dealer,Premises,Active,07/20/2018,11/30/2027,,(917) 687-8508,Complete Address,1370,PENNSYLVANIA AVE,,,,,BROOKLYN,NY,11239,Brooklyn,305.0,42.0,3345673.0,3044520015.0,BK93,4000.0,105804.0,40.64796,-73.881891,POINT (-73.881891 40.64796)\r\n2058882-DCA,SKY MOBILE INC,,BA-1564424-2022,Electronics Store,Premises,Active,10/02/2017,12/31/2026,,9293666664,Complete Address,6016,5TH AVE,,,,,BROOKLYN,NY,11220,Brooklyn,307.0,38.0,3143443.0,3057820039.0,BK32,1000.0,122.0,40.63933,-74.016337,POINT (-74.016337 40.63933)\r\n2120659-DCWP,ELITE POOL SERVICE INC.,,BA-1689506-2024,Home Improvement Contractor,Premises,Active,04/19/2024,02/28/2027,,(917) 575-4633,Complete Address,75,UNCAS AVE,,,,,STATEN ISLAND,NY,10309,Staten Island,503.0,51.0,5122433.0,5069020041.0,SI32,3011.0,20803.0,40.52827,-74.204547,POINT (-74.204547 40.52827)\r\n1412754-DCA,288 SAMS DELI INC.,,BA-1101174-2022,Tobacco Retail Dealer,Premises,Active,11/07/2011,12/31/2026,,718-266-0377,Complete Address,288,AVENUE U,,,,,BROOKLYN,NY,11223,Brooklyn,315.0,44.0,3192646.0,3071230010.0,BK26,1001.0,398.0,40.59694,-73.973497,POINT (-73.973497 40.59694)\r\n2126829-DCWP,Ecua Group Inc.,,BA-1721138-2025,Construction Labor Provider,Premises,Active,02/20/2025,07/31/2026,,(917) 683-0863,Complete Address,360,KIRKMAN AVE,,,,,ELMONT,NY,11003,,,,,,,,,40.69853,-73.694181,POINT (-73.694181 40.69853)\r\n"
+}

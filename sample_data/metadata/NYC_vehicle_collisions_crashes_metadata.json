@@ -1,0 +1,1010 @@
+{
+  "geometricType": "Point",
+  "name": null,
+  "crs": null,
+  "nb_rows": 8605,
+  "nb_profiled_rows": 8605,
+  "nb_columns": 30,
+  "columns": [
+    {
+      "name": "CRASH DATE",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/DateTime"
+      ],
+      "num_distinct_values": 3946
+    },
+    {
+      "name": "CRASH TIME",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "num_distinct_values": 1206
+    },
+    {
+      "name": "BOROUGH",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.24276583381754793,
+      "num_distinct_values": 5
+    },
+    {
+      "name": "ZIP CODE",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.24276583381754793,
+      "num_distinct_values": 354,
+      "mean": 10852.042971147943,
+      "stddev": 550.956105731871,
+      "coverage": [
+        {
+          "range": {
+            "gte": 10001.0,
+            "lte": 10065.0
+          }
+        },
+        {
+          "range": {
+            "gte": 10304.0,
+            "lte": 10473.0
+          }
+        },
+        {
+          "range": {
+            "gte": 11106.0,
+            "lte": 11433.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "LATITUDE",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/latitude"
+      ],
+      "unclean_values_ratio": 0.0,
+      "mean": 40.72356869643251,
+      "stddev": 0.0793493411103031,
+      "coverage": [
+        {
+          "range": {
+            "gte": 40.57601,
+            "lte": 40.68231
+          }
+        },
+        {
+          "range": {
+            "gte": 40.6911025,
+            "lte": 40.77458
+          }
+        },
+        {
+          "range": {
+            "gte": 40.79347,
+            "lte": 40.888577
+          }
+        }
+      ]
+    },
+    {
+      "name": "LONGITUDE",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/longitude"
+      ],
+      "unclean_values_ratio": 0.0,
+      "mean": -73.93110717905891,
+      "stddev": 1.4449074855328172,
+      "coverage": [
+        {
+          "range": {
+            "gte": -74.05198,
+            "lte": -73.7660585
+          }
+        }
+      ]
+    },
+    {
+      "name": "LOCATION",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "num_distinct_values": 7952
+    },
+    {
+      "name": "ON STREET NAME",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.21429401510749566,
+      "num_distinct_values": 2483
+    },
+    {
+      "name": "CROSS STREET NAME",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.3800116211504939,
+      "num_distinct_values": 2774
+    },
+    {
+      "name": "OFF STREET NAME",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Text"
+      ],
+      "missing_values_ratio": 0.8147588611272516
+    },
+    {
+      "name": "NUMBER OF PERSONS INJURED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 10,
+      "mean": 0.33306217315514236,
+      "stddev": 0.7134015392174298,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 0.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1.0,
+            "lte": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NUMBER OF PERSONS KILLED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 2,
+      "mean": 0.0013945380592678676,
+      "stddev": 0.03731746672630688,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NUMBER OF PEDESTRIANS INJURED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/Boolean"
+      ],
+      "unclean_values_ratio": 0.002789076118535735,
+      "num_distinct_values": 4,
+      "mean": 0.06577571179546775,
+      "stddev": 0.2606858488868222,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NUMBER OF PEDESTRIANS KILLED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/Boolean"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 2,
+      "mean": 0.0006972690296339338,
+      "stddev": 0.026396644588549806,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NUMBER OF CYCLIST INJURED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/Boolean"
+      ],
+      "unclean_values_ratio": 0.0003486345148169669,
+      "num_distinct_values": 3,
+      "mean": 0.027774549680418363,
+      "stddev": 0.1664343507215357,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NUMBER OF CYCLIST KILLED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/Boolean"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 2,
+      "mean": 0.00023242300987797793,
+      "stddev": 0.015243654070544092,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NUMBER OF MOTORIST INJURED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 10,
+      "mean": 0.23428239395700173,
+      "stddev": 0.6712911487323203,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 0.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1.0,
+            "lte": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "NUMBER OF MOTORIST KILLED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/Boolean"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 2,
+      "mean": 0.00046484601975595586,
+      "stddev": 0.02155527633629237,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "CONTRIBUTING FACTOR VEHICLE 1",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.002905287623474724,
+      "num_distinct_values": 51
+    },
+    {
+      "name": "CONTRIBUTING FACTOR VEHICLE 2",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.16292852992446252,
+      "num_distinct_values": 41
+    },
+    {
+      "name": "CONTRIBUTING FACTOR VEHICLE 3",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.9279488669378269,
+      "num_distinct_values": 13
+    },
+    {
+      "name": "CONTRIBUTING FACTOR VEHICLE 4",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.9839628123184195,
+      "num_distinct_values": 2
+    },
+    {
+      "name": "CONTRIBUTING FACTOR VEHICLE 5",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.9959325973271353,
+      "num_distinct_values": 2
+    },
+    {
+      "name": "COLLISION_ID",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/identifier"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 8605,
+      "mean": 3328945.717141197,
+      "stddev": 1509178.9069549514,
+      "coverage": [
+        {
+          "range": {
+            "gte": 19300.0,
+            "lte": 1020948.0
+          }
+        },
+        {
+          "range": {
+            "gte": 3057244.0,
+            "lte": 3926559.0
+          }
+        },
+        {
+          "range": {
+            "gte": 4015808.0,
+            "lte": 4837549.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "VEHICLE TYPE CODE 1",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.006507844276583382,
+      "num_distinct_values": 85
+    },
+    {
+      "name": "VEHICLE TYPE CODE 2",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.20685647879140034,
+      "num_distinct_values": 97
+    },
+    {
+      "name": "VEHICLE TYPE CODE 3",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.9315514235909355,
+      "num_distinct_values": 32
+    },
+    {
+      "name": "VEHICLE TYPE CODE 4",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.9843114468332365,
+      "num_distinct_values": 13
+    },
+    {
+      "name": "VEHICLE TYPE CODE 5",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.9962812318419524,
+      "num_distinct_values": 5
+    },
+    {
+      "name": "geometry",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "point_format": "long,lat",
+      "unclean_values_ratio": 0.0
+    }
+  ],
+  "nb_spatial_columns": 3,
+  "nb_temporal_columns": 1,
+  "nb_categorical_columns": 10,
+  "nb_numerical_columns": 10,
+  "types": [
+    "categorical",
+    "numerical",
+    "spatial",
+    "temporal"
+  ],
+  "spatial_coverage": [
+    {
+      "type": "latlong",
+      "column_names": [
+        "LATITUDE",
+        "LONGITUDE"
+      ],
+      "column_indexes": [
+        4,
+        5
+      ],
+      "geohashes4": [
+        {
+          "hash": "121130231330",
+          "number": 768
+        },
+        {
+          "hash": "121130231331",
+          "number": 1007
+        },
+        {
+          "hash": "121130231333",
+          "number": 474
+        },
+        {
+          "hash": "121130231332",
+          "number": 375
+        },
+        {
+          "hash": "121130231321",
+          "number": 768
+        },
+        {
+          "hash": "121130231320",
+          "number": 506
+        },
+        {
+          "hash": "121130231323",
+          "number": 516
+        },
+        {
+          "hash": "121130231322",
+          "number": 85
+        },
+        {
+          "hash": "121130231303",
+          "number": 35
+        },
+        {
+          "hash": "121130231302",
+          "number": 266
+        },
+        {
+          "hash": "121130231300",
+          "number": 138
+        },
+        {
+          "hash": "121130231312",
+          "number": 97
+        },
+        {
+          "hash": "121130231313",
+          "number": 25
+        },
+        {
+          "hash": "121130231231",
+          "number": 236
+        },
+        {
+          "hash": "121130231233",
+          "number": 18
+        },
+        {
+          "hash": "121130231213",
+          "number": 42
+        },
+        {
+          "hash": "121130231211",
+          "number": 92
+        },
+        {
+          "hash": "121130231210",
+          "number": 53
+        },
+        {
+          "hash": "121130231032",
+          "number": 32
+        },
+        {
+          "hash": "121130231033",
+          "number": 5
+        },
+        {
+          "hash": "121130231023",
+          "number": 13
+        },
+        {
+          "hash": "121130231122",
+          "number": 1
+        },
+        {
+          "hash": "121130233110",
+          "number": 357
+        },
+        {
+          "hash": "121130233111",
+          "number": 237
+        },
+        {
+          "hash": "121130233112",
+          "number": 55
+        },
+        {
+          "hash": "121130233113",
+          "number": 44
+        },
+        {
+          "hash": "121130233101",
+          "number": 320
+        },
+        {
+          "hash": "121130233103",
+          "number": 56
+        },
+        {
+          "hash": "121130233100",
+          "number": 12
+        },
+        {
+          "hash": "121130233102",
+          "number": 1
+        },
+        {
+          "hash": "121130233011",
+          "number": 56
+        },
+        {
+          "hash": "121130320223",
+          "number": 587
+        },
+        {
+          "hash": "121130320220",
+          "number": 488
+        },
+        {
+          "hash": "121130320222",
+          "number": 190
+        },
+        {
+          "hash": "121130320221",
+          "number": 255
+        },
+        {
+          "hash": "121130320232",
+          "number": 286
+        },
+        {
+          "hash": "121130320230",
+          "number": 6
+        },
+        {
+          "hash": "121130322010",
+          "number": 19
+        },
+        {
+          "hash": "121130322001",
+          "number": 44
+        },
+        {
+          "hash": "121130322000",
+          "number": 38
+        },
+        {
+          "hash": "123130013123",
+          "number": 1
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.1294,
+                40.7628522
+              ],
+              [
+                -73.90029,
+                40.581993
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.94983,
+                40.877182
+              ],
+              [
+                -73.746414,
+                40.6673505
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 8604
+    },
+    {
+      "type": "point",
+      "column_names": [
+        "geometry"
+      ],
+      "column_indexes": [
+        29
+      ],
+      "geohashes4": [
+        {
+          "hash": "121130231330",
+          "number": 768
+        },
+        {
+          "hash": "121130231331",
+          "number": 1007
+        },
+        {
+          "hash": "121130231333",
+          "number": 474
+        },
+        {
+          "hash": "121130231332",
+          "number": 375
+        },
+        {
+          "hash": "121130231321",
+          "number": 768
+        },
+        {
+          "hash": "121130231320",
+          "number": 506
+        },
+        {
+          "hash": "121130231323",
+          "number": 516
+        },
+        {
+          "hash": "121130231322",
+          "number": 85
+        },
+        {
+          "hash": "121130231303",
+          "number": 35
+        },
+        {
+          "hash": "121130231302",
+          "number": 266
+        },
+        {
+          "hash": "121130231300",
+          "number": 138
+        },
+        {
+          "hash": "121130231312",
+          "number": 97
+        },
+        {
+          "hash": "121130231313",
+          "number": 25
+        },
+        {
+          "hash": "121130231231",
+          "number": 236
+        },
+        {
+          "hash": "121130231233",
+          "number": 18
+        },
+        {
+          "hash": "121130231213",
+          "number": 42
+        },
+        {
+          "hash": "121130231211",
+          "number": 92
+        },
+        {
+          "hash": "121130231210",
+          "number": 53
+        },
+        {
+          "hash": "121130231032",
+          "number": 32
+        },
+        {
+          "hash": "121130231033",
+          "number": 5
+        },
+        {
+          "hash": "121130231023",
+          "number": 13
+        },
+        {
+          "hash": "121130231122",
+          "number": 1
+        },
+        {
+          "hash": "121130233110",
+          "number": 357
+        },
+        {
+          "hash": "121130233111",
+          "number": 237
+        },
+        {
+          "hash": "121130233112",
+          "number": 55
+        },
+        {
+          "hash": "121130233113",
+          "number": 44
+        },
+        {
+          "hash": "121130233101",
+          "number": 320
+        },
+        {
+          "hash": "121130233103",
+          "number": 56
+        },
+        {
+          "hash": "121130233100",
+          "number": 12
+        },
+        {
+          "hash": "121130233102",
+          "number": 1
+        },
+        {
+          "hash": "121130233011",
+          "number": 56
+        },
+        {
+          "hash": "121130320223",
+          "number": 587
+        },
+        {
+          "hash": "121130320220",
+          "number": 488
+        },
+        {
+          "hash": "121130320222",
+          "number": 190
+        },
+        {
+          "hash": "121130320221",
+          "number": 255
+        },
+        {
+          "hash": "121130320232",
+          "number": 286
+        },
+        {
+          "hash": "121130320230",
+          "number": 6
+        },
+        {
+          "hash": "121130322010",
+          "number": 19
+        },
+        {
+          "hash": "121130322001",
+          "number": 44
+        },
+        {
+          "hash": "121130322000",
+          "number": 38
+        },
+        {
+          "hash": "123130013123",
+          "number": 1
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.1294,
+                40.762852
+              ],
+              [
+                -73.90029,
+                40.581993
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.94983,
+                40.877182
+              ],
+              [
+                -73.746414,
+                40.66735
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 8604
+    }
+  ],
+  "temporal_coverage": [
+    {
+      "type": "datetime",
+      "column_names": [
+        "CRASH DATE"
+      ],
+      "column_indexes": [
+        0
+      ],
+      "column_types": [
+        "http://schema.org/DateTime"
+      ],
+      "ranges": [
+        {
+          "range": {
+            "gte": 1347580800.0,
+            "lte": 1462406400.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1473984000.0,
+            "lte": 1597363200.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1617580800.0,
+            "lte": 1762214400.0
+          }
+        }
+      ],
+      "temporal_resolution": "day"
+    }
+  ],
+  "attribute_keywords": [
+    "CRASH DATE",
+    "CRASH",
+    "DATE",
+    "CRASH TIME",
+    "CRASH",
+    "TIME",
+    "BOROUGH",
+    "ZIP CODE",
+    "ZIP",
+    "CODE",
+    "LATITUDE",
+    "LONGITUDE",
+    "LOCATION",
+    "ON STREET NAME",
+    "ON",
+    "STREET",
+    "NAME",
+    "CROSS STREET NAME",
+    "CROSS",
+    "STREET",
+    "NAME",
+    "OFF STREET NAME",
+    "OFF",
+    "STREET",
+    "NAME",
+    "NUMBER OF PERSONS INJURED",
+    "NUMBER",
+    "OF",
+    "PERSONS",
+    "INJURED",
+    "NUMBER OF PERSONS KILLED",
+    "NUMBER",
+    "OF",
+    "PERSONS",
+    "KILLED",
+    "NUMBER OF PEDESTRIANS INJURED",
+    "NUMBER",
+    "OF",
+    "PEDESTRIANS",
+    "INJURED",
+    "NUMBER OF PEDESTRIANS KILLED",
+    "NUMBER",
+    "OF",
+    "PEDESTRIANS",
+    "KILLED",
+    "NUMBER OF CYCLIST INJURED",
+    "NUMBER",
+    "OF",
+    "CYCLIST",
+    "INJURED",
+    "NUMBER OF CYCLIST KILLED",
+    "NUMBER",
+    "OF",
+    "CYCLIST",
+    "KILLED",
+    "NUMBER OF MOTORIST INJURED",
+    "NUMBER",
+    "OF",
+    "MOTORIST",
+    "INJURED",
+    "NUMBER OF MOTORIST KILLED",
+    "NUMBER",
+    "OF",
+    "MOTORIST",
+    "KILLED",
+    "CONTRIBUTING FACTOR VEHICLE 1",
+    "CONTRIBUTING",
+    "FACTOR",
+    "VEHICLE",
+    "1",
+    "CONTRIBUTING FACTOR VEHICLE 2",
+    "CONTRIBUTING",
+    "FACTOR",
+    "VEHICLE",
+    "2",
+    "CONTRIBUTING FACTOR VEHICLE 3",
+    "CONTRIBUTING",
+    "FACTOR",
+    "VEHICLE",
+    "3",
+    "CONTRIBUTING FACTOR VEHICLE 4",
+    "CONTRIBUTING",
+    "FACTOR",
+    "VEHICLE",
+    "4",
+    "CONTRIBUTING FACTOR VEHICLE 5",
+    "CONTRIBUTING",
+    "FACTOR",
+    "VEHICLE",
+    "5",
+    "COLLISION_ID",
+    "COLLISION",
+    "ID",
+    "VEHICLE TYPE CODE 1",
+    "VEHICLE",
+    "TYPE",
+    "CODE",
+    "1",
+    "VEHICLE TYPE CODE 2",
+    "VEHICLE",
+    "TYPE",
+    "CODE",
+    "2",
+    "VEHICLE TYPE CODE 3",
+    "VEHICLE",
+    "TYPE",
+    "CODE",
+    "3",
+    "VEHICLE TYPE CODE 4",
+    "VEHICLE",
+    "TYPE",
+    "CODE",
+    "4",
+    "VEHICLE TYPE CODE 5",
+    "VEHICLE",
+    "TYPE",
+    "CODE",
+    "5",
+    "geometry"
+  ],
+  "sample": "CRASH DATE,CRASH TIME,BOROUGH,ZIP CODE,LATITUDE,LONGITUDE,LOCATION,ON STREET NAME,CROSS STREET NAME,OFF STREET NAME,NUMBER OF PERSONS INJURED,NUMBER OF PERSONS KILLED,NUMBER OF PEDESTRIANS INJURED,NUMBER OF PEDESTRIANS KILLED,NUMBER OF CYCLIST INJURED,NUMBER OF CYCLIST KILLED,NUMBER OF MOTORIST INJURED,NUMBER OF MOTORIST KILLED,CONTRIBUTING FACTOR VEHICLE 1,CONTRIBUTING FACTOR VEHICLE 2,CONTRIBUTING FACTOR VEHICLE 3,CONTRIBUTING FACTOR VEHICLE 4,CONTRIBUTING FACTOR VEHICLE 5,COLLISION_ID,VEHICLE TYPE CODE 1,VEHICLE TYPE CODE 2,VEHICLE TYPE CODE 3,VEHICLE TYPE CODE 4,VEHICLE TYPE CODE 5,geometry\r\n08/21/2021,21:00,QUEENS,11429.0,40.71524,-73.732765,\"    (40.71524, -73.732765)\",,,220-34    100 AVENUE,0.0,0.0,0,0,0,0,0,0,Unspecified,,,,,4449377,Pick-up Truck,,,,,POINT (-73.732765 40.71524)\r\n12/22/2022,19:00,BROOKLYN,11236.0,40.637985,-73.897224,\"    (40.637985, -73.897224)\",,,1391      EAST 95 STREET,1.0,0.0,0,0,0,0,1,0,Unsafe Speed,Unspecified,,,,4592171,Sedan,Station Wagon/Sport Utility Vehicle,,,,POINT (-73.897224 40.637985)\r\n03/10/2021,9:30,BROOKLYN,11212.0,40.66143,-73.91644,\"(40.66143, -73.91644)\",LIVONIA AVENUE                  ,LEGION STREET,,0.0,0.0,0,0,0,0,0,0,Unspecified,Unspecified,,,,4397793,Station Wagon/Sport Utility Vehicle,,,,,POINT (-73.91644 40.66143)\r\n05/06/2020,16:39,,,40.73771,-73.974266,\"(40.73771, -73.974266)\",FDR DRIVE                       ,,,0.0,0.0,0,0,0,0,0,0,Driver Inexperience,,,,,4312173,Sedan,,,,,POINT (-73.974266 40.73771)\r\n07/31/2019,12:30,,,40.742874,-73.933945,\"(40.742874, -73.933945)\",47 AVENUE                       ,,,0.0,0.0,0,0,0,0,0,0,Driver Inattention/Distraction,Unspecified,,,,4180397,Taxi,Station Wagon/Sport Utility Vehicle,,,,POINT (-73.933945 40.742874)\r\n09/01/2018,22:25,QUEENS,11419.0,40.686527,-73.83005,\"(40.686527, -73.83005)\",113 STREET                      ,103 AVENUE,,0.0,0.0,0,0,0,0,0,0,Other Vehicular,Traffic Control Disregarded,,,,3972803,Sedan,Sedan,,,,POINT (-73.83005 40.686527)\r\n06/29/2018,13:45,BROOKLYN,11207.0,40.660328,-73.88656,\"(40.660328, -73.88656)\",LINDEN BOULEVARD                ,MILLER AVENUE,,0.0,0.0,0,0,0,0,0,0,Following Too Closely,Backing Unsafely,,,,3932243,Sedan,Station Wagon/Sport Utility Vehicle,,,,POINT (-73.88656 40.660328)\r\n03/28/2018,1:10,BROOKLYN,11222.0,40.735714,-73.95516,\"(40.735714, -73.95516)\",,,1088      MANHATTAN AVENUE              ,0.0,0.0,0,0,0,0,0,0,Backing Unsafely,Unspecified,,,,3871206,Sedan,Pick-up Truck,,,,POINT (-73.95516 40.735714)\r\n02/07/2018,18:50,,,40.818016,-73.96043,\"(40.818016, -73.96043)\",WEST 125 STREET                 ,,,0.0,0.0,0,0,0,0,0,0,Driver Inattention/Distraction,Unspecified,,,,3844881,Station Wagon/Sport Utility Vehicle,Station Wagon/Sport Utility Vehicle,,,,POINT (-73.96043 40.818016)\r\n10/20/2017,16:45,QUEENS,11435.0,40.709343,-73.8178,\"(40.709343, -73.8178)\",84 DRIVE                        ,MANTON STREET,,1.0,0.0,0,0,0,0,1,0,Following Too Closely,Unspecified,,,,3773482,Station Wagon/Sport Utility Vehicle,Station Wagon/Sport Utility Vehicle,,,,POINT (-73.8178 40.709343)\r\n07/20/2017,17:15,QUEENS,11413.0,40.679348,-73.750336,\"(40.679348, -73.750336)\",MERRICK BOULEVARD               ,219 STREET,,0.0,0.0,0,0,0,0,0,0,Driver Inattention/Distraction,Driver Inattention/Distraction,,,,3715157,Sedan,Sedan,,,,POINT (-73.750336 40.679348)\r\n07/16/2017,1:53,BRONX,10468.0,40.86275,-73.90436,\"(40.86275, -73.90436)\",,,85        WEST FORDHAM ROAD             ,1.0,0.0,0,0,0,0,1,0,Driver Inattention/Distraction,Unspecified,,,,3711675,Sedan,Station Wagon/Sport Utility Vehicle,,,,POINT (-73.90436 40.86275)\r\n09/17/2016,19:30,,,40.8739,-73.85552,\"(40.8739, -73.85552)\",LACONIA AVENUE                  ,,,1.0,0.0,1,0,0,0,0,0,Failure to Yield Right-of-Way,,,,,3521886,Station Wagon/Sport Utility Vehicle,,,,,POINT (-73.85552 40.8739)\r\n06/20/2016,16:00,STATEN ISLAND,10307.0,40.51351,-74.237366,\"(40.51351, -74.237366)\",AMBOY ROAD                      ,JOLINE AVENUE,,1.0,0.0,0,0,0,0,1,0,Driver Inattention/Distraction,Unspecified,,,,3466392,4 dr sedan,4 dr sedan,,,,POINT (-74.237366 40.51351)\r\n05/26/2016,14:00,,,40.757286,-73.97812,\"(40.757286, -73.97812)\",,,WEST 48 STREET                          ,0.0,0.0,0,0,0,0,0,0,Passing or Lane Usage Improper,Passing or Lane Usage Improper,,,,3447188,4 dr sedan,4 dr sedan,,,,POINT (-73.97812 40.757286)\r\n08/13/2014,18:00,BRONX,10470,40.9037883,-73.8460712,\"(40.9037883, -73.8460712)\",ST OUEN STREET                  ,WILDER AVENUE                   ,,0.0,0.0,0,0,0,0,0,0,Unspecified,Unspecified,,,,1007850,PASSENGER VEHICLE,SPORT UTILITY / STATION WAGON,,,,POINT (-73.846071 40.903788)\r\n06/20/2013,14:11,BRONX,10452.0,40.8313358,-73.9216614,\"(40.8313358, -73.9216614)\",WALTON AVENUE                   ,EAST 165 STREET                 ,,0.0,0.0,0,0,0,0,0,0,Driver Inattention/Distraction,Unspecified,,,,87129,PASSENGER VEHICLE,PASSENGER VEHICLE,,,,POINT (-73.921661 40.831336)\r\n01/08/2013,16:45,STATEN ISLAND,10308,40.5392888,-74.1485452,\"(40.5392888, -74.1485452)\",HYLAN BOULEVARD                 ,GLOVER STREET                   ,,0.0,0.0,0,0,0,0,0,0,Turning Improperly,Unspecified,,,,296027,PASSENGER VEHICLE,SPORT UTILITY / STATION WAGON,,,,POINT (-74.148545 40.539289)\r\n09/16/2012,13:50,QUEENS,11101,40.7541612,-73.9494036,\"(40.7541612, -73.9494036)\",QUEENS PLAZA SOUTH              ,VERNON BOULEVARD                ,,1.0,0.0,0,0,0,0,1,0,Unspecified,Unspecified,,,,239471,PASSENGER VEHICLE,PASSENGER VEHICLE,,,,POINT (-73.949404 40.754161)\r\n07/14/2012,0:10,MANHATTAN,10002,40.7185558,-73.9882,\"(40.7185558, -73.9882)\",DELANCEY STREET                 ,ESSEX STREET                    ,,0.0,0.0,0,0,0,0,0,0,Driver Inexperience,Lost Consciousness,,,,12227,PASSENGER VEHICLE,PASSENGER VEHICLE,,,,POINT (-73.9882 40.718556)\r\n"
+}

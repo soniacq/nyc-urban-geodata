@@ -1,0 +1,395 @@
+{
+  "geometricType": "MultiPolygon",
+  "name": "NYC_air_pollution",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "nb_rows": 107,
+  "nb_profiled_rows": 107,
+  "nb_columns": 14,
+  "columns": [
+    {
+      "name": "BoroCd",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 47,
+      "mean": 286.0841121495327,
+      "stddev": 123.43435362215114,
+      "coverage": [
+        {
+          "range": {
+            "gte": 102.0,
+            "lte": 112.0
+          }
+        },
+        {
+          "range": {
+            "gte": 202.0,
+            "lte": 302.0
+          }
+        },
+        {
+          "range": {
+            "gte": 309.0,
+            "lte": 503.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Geo Place Name",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Text"
+      ]
+    },
+    {
+      "name": "the_geom",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Text"
+      ]
+    },
+    {
+      "name": "Time Period",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "num_distinct_values": 41
+    },
+    {
+      "name": "Start_Date",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/DateTime"
+      ],
+      "num_distinct_values": 35
+    },
+    {
+      "name": "Annual vehicle miles traveled",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.9532710280373832,
+      "mean": 85.9903454,
+      "stddev": 53.874142265686764,
+      "coverage": [
+        {
+          "range": {
+            "gte": 43.773673,
+            "lte": 50.246045
+          }
+        },
+        {
+          "range": {
+            "gte": 71.098763,
+            "lte": 73.596321
+          }
+        },
+        {
+          "range": {
+            "gte": 191.236925,
+            "lte": 191.236925
+          }
+        }
+      ]
+    },
+    {
+      "name": "Annual vehicle miles traveled (cars)",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.9532710280373832,
+      "mean": 79.31356079999999,
+      "stddev": 49.86959535972211,
+      "coverage": [
+        {
+          "range": {
+            "gte": 38.467273,
+            "lte": 47.473032
+          }
+        },
+        {
+          "range": {
+            "gte": 66.532548,
+            "lte": 67.563923
+          }
+        },
+        {
+          "range": {
+            "gte": 176.531028,
+            "lte": 176.531028
+          }
+        }
+      ]
+    },
+    {
+      "name": "Annual vehicle miles traveled (trucks)",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.9532710280373832,
+      "mean": 4.2534393999999995,
+      "stddev": 2.4824602395353366,
+      "coverage": [
+        {
+          "range": {
+            "gte": 1.27622,
+            "lte": 1.525977
+          }
+        },
+        {
+          "range": {
+            "gte": 4.939819,
+            "lte": 5.911896
+          }
+        },
+        {
+          "range": {
+            "gte": 7.613285,
+            "lte": 7.613285
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fine particles (PM 2.5)",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.056074766355140186,
+      "mean": 9.240466811960399,
+      "stddev": 2.204288046325032,
+      "coverage": [
+        {
+          "range": {
+            "gte": 5.722829885,
+            "lte": 8.26
+          }
+        },
+        {
+          "range": {
+            "gte": 8.8,
+            "lte": 10.83
+          }
+        },
+        {
+          "range": {
+            "gte": 11.47,
+            "lte": 14.23
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nitrogen dioxide (NO2)",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.056074766355140186,
+      "mean": 21.0398530569307,
+      "stddev": 6.3524605293074,
+      "coverage": [
+        {
+          "range": {
+            "gte": 8.44,
+            "lte": 17.32271887
+          }
+        },
+        {
+          "range": {
+            "gte": 18.30654991,
+            "lte": 24.08
+          }
+        },
+        {
+          "range": {
+            "gte": 25.44,
+            "lte": 34.45
+          }
+        }
+      ]
+    },
+    {
+      "name": "Outdoor Air Toxics - Benzene",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.9906542056074766,
+      "mean": 1.61340017,
+      "stddev": 0.0,
+      "coverage": [
+        {
+          "range": {
+            "gte": 1.61340017,
+            "lte": 1.61340017
+          }
+        }
+      ]
+    },
+    {
+      "name": "Outdoor Air Toxics - Formaldehyde",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.9906542056074766,
+      "mean": 2.3,
+      "stddev": 0.0,
+      "coverage": [
+        {
+          "range": {
+            "gte": 2.3,
+            "lte": 2.3
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ozone (O3)",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.6728971962616822,
+      "mean": 30.30545321257143,
+      "stddev": 3.380288906767562,
+      "coverage": [
+        {
+          "range": {
+            "gte": 22.3,
+            "lte": 27.83
+          }
+        },
+        {
+          "range": {
+            "gte": 28.57423959,
+            "lte": 31.85882124
+          }
+        },
+        {
+          "range": {
+            "gte": 32.41,
+            "lte": 35.97
+          }
+        }
+      ]
+    },
+    {
+      "name": "geometry",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Text"
+      ]
+    }
+  ],
+  "nb_temporal_columns": 1,
+  "nb_numerical_columns": 9,
+  "types": [
+    "numerical",
+    "temporal"
+  ],
+  "temporal_coverage": [
+    {
+      "type": "datetime",
+      "column_names": [
+        "Start_Date"
+      ],
+      "column_indexes": [
+        4
+      ],
+      "column_types": [
+        "http://schema.org/DateTime"
+      ],
+      "ranges": [
+        {
+          "range": {
+            "gte": 1228089600.0,
+            "lte": 1338508800.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1354320000.0,
+            "lte": 1514764800.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1543622400.0,
+            "lte": 1672531200.0
+          }
+        }
+      ],
+      "temporal_resolution": "quarter"
+    }
+  ],
+  "attribute_keywords": [
+    "BoroCd",
+    "Boro",
+    "Cd",
+    "Geo Place Name",
+    "Geo",
+    "Place",
+    "Name",
+    "the_geom",
+    "the",
+    "geom",
+    "Time Period",
+    "Time",
+    "Period",
+    "Start_Date",
+    "Start",
+    "Date",
+    "Annual vehicle miles traveled",
+    "Annual",
+    "vehicle",
+    "miles",
+    "traveled",
+    "Annual vehicle miles traveled (cars)",
+    "Annual",
+    "vehicle",
+    "miles",
+    "traveled",
+    "cars",
+    "",
+    "Annual vehicle miles traveled (trucks)",
+    "Annual",
+    "vehicle",
+    "miles",
+    "traveled",
+    "trucks",
+    "",
+    "Fine particles (PM 2.5)",
+    "Fine",
+    "particles",
+    "PM",
+    "2",
+    "5",
+    "",
+    "Nitrogen dioxide (NO2)",
+    "Nitrogen",
+    "dioxide",
+    "NO",
+    "2",
+    "",
+    "Outdoor Air Toxics - Benzene",
+    "Outdoor",
+    "Air",
+    "Toxics",
+    "Benzene",
+    "Outdoor Air Toxics - Formaldehyde",
+    "Outdoor",
+    "Air",
+    "Toxics",
+    "Formaldehyde",
+    "Ozone (O3)",
+    "Ozone",
+    "O",
+    "3",
+    "",
+    "geometry"
+  ],
+  "sample": "BoroCd,Geo Place Name,the_geom,Time Period,Start_Date,Annual vehicle miles traveled,Annual vehicle miles traveled (cars),Annual vehicle miles traveled (trucks),Fine particles (PM 2.5),Nitrogen dioxide (NO2),Outdoor Air Toxics - Benzene,Outdoor Air Toxics - Formaldehyde,Ozone (O3),geometry\r\n310,Bay Ridge and Dyker Heights (CD10),\"MULTIPOLYGON (((-74.0323108423412 40.6440392144806, -74.03200953327242 40.64385780804766, -74.0260978912957 40.640270020325424,...\",Winter 2010-11,2010-12-01 00:00:00,,,,12.46,29.44,,,,\"MULTIPOLYGON (((-74.032311 40.644039, -74.03201 40.643858, -74.026098 40.64027, -74.025724 40.640631, -74.024664 40.639983, -74.024615...\"\r\n309,South Crown Heights and Lefferts Gardens (CD9),\"MULTIPOLYGON (((-73.92872204594605 40.6644955696853, -73.92905235465467 40.66435100704261, -73.92916752203725 40.66429953215195,...\",Annual Average 2022,2022-01-01 00:00:00,,,,5.722829885,15.44228282,,,,\"MULTIPOLYGON (((-73.928722 40.664496, -73.929052 40.664351, -73.929168 40.6643, -73.929404 40.6642, -73.929874 40.663991, -73.930685...\"\r\n309,South Crown Heights and Lefferts Gardens (CD9),\"MULTIPOLYGON (((-73.92872204594605 40.6644955696853, -73.92905235465467 40.66435100704261, -73.92916752203725 40.66429953215195,...\",Winter 2022-23,2022-12-01 00:00:00,,,,6.215109393,22.88346514,,,,\"MULTIPOLYGON (((-73.928722 40.664496, -73.929052 40.664351, -73.929168 40.6643, -73.929404 40.6642, -73.929874 40.663991, -73.930685...\"\r\n301,Greenpoint and Williamsburg (CD1),\"MULTIPOLYGON (((-73.92405909736993 40.71411156014753, -73.92404011334023 40.71400831262894, -73.923139363493 40.71339472859353,...\",Winter 2015-16,2015-12-01 00:00:00,,,,10.28,25.68,,,,\"MULTIPOLYGON (((-73.924059 40.714112, -73.92404 40.714008, -73.923139 40.713395, -73.922235 40.712856, -73.921819 40.711782, -73.921546...\"\r\n108,Upper East Side (CD8),\"MULTIPOLYGON (((-73.94180032729426 40.76904692662473, -73.94256806142144 40.76850590573156, -73.94285528620705 40.76830349440936,...\",Annual Average 2009,2008-12-01 00:00:00,,,,12.91,34.45,,,,\"MULTIPOLYGON (((-73.9418 40.769047, -73.942568 40.768506, -73.942855 40.768303, -73.943219 40.767893, -73.943814 40.767221, -73.944223...\"\r\n204,Highbridge and Concourse (CD4),\"MULTIPOLYGON (((-73.90268810050183 40.844581472285384, -73.90271291709685 40.844542789546665, -73.9027845818396 40.84441574587659,...\",Summer 2015,2015-06-01 00:00:00,,,,10.37,18.38,,,29.68,\"MULTIPOLYGON (((-73.902688 40.844581, -73.902713 40.844543, -73.902785 40.844416, -73.902916 40.844181, -73.903576 40.843004, -73.904155...\"\r\n308,Crown Heights and Prospect Heights (CD8),\"MULTIPOLYGON (((-73.95829216807752 40.67983113399742, -73.9559586243741 40.679346246648265, -73.95529361599387 40.67920315104397,...\",Summer 2013,2013-06-01 00:00:00,,,,10.31,19.36,,,29.02,\"MULTIPOLYGON (((-73.958292 40.679831, -73.955959 40.679346, -73.955294 40.679203, -73.954332 40.679001, -73.954128 40.678958, -73.952987...\"\r\n206,Belmont and East Tremont (CD6),\"MULTIPOLYGON (((-73.8718461029101 40.843760777855834, -73.87191691451008 40.843453743148416, -73.87196432156817 40.84323825377388,...\",Summer 2013,2013-06-01 00:00:00,,,,10.7,18.06,,,30.47,\"MULTIPOLYGON (((-73.871846 40.843761, -73.871917 40.843454, -73.871964 40.843238, -73.872134 40.842498, -73.872317 40.84169, -73.872341...\"\r\n404,Elmhurst and Corona (CD4),\"MULTIPOLYGON (((-73.84750820278065 40.739007807039215, -73.84801295264873 40.73876334447134, -73.84859447960451 40.738501171063355,...\",Winter 2021-22,2021-12-01 00:00:00,,,,7.098106385,21.98859049,,,,\"MULTIPOLYGON (((-73.847508 40.739008, -73.848013 40.738763, -73.848594 40.738501, -73.849565 40.738106, -73.849954 40.73796, -73.850792...\"\r\n208,Riverdale and Fieldston (CD8),\"MULTIPOLYGON (((-73.89663333863315 40.91141737484631, -73.89663068577319 40.91129892710647, -73.89663068585007 40.91129887768763,...\",Winter 2014-15,2014-12-01 00:00:00,,,,10.15,21.2,,,,\"MULTIPOLYGON (((-73.896633 40.911417, -73.896631 40.911299, -73.896631 40.911299, -73.896606 40.910202, -73.896596 40.909628, -73.896565...\"\r\n503,Tottenville and Great Kills (CD3),\"MULTIPOLYGON (((-74.13319580101377 40.536306742050655, -74.13301207668793 40.53625606504287, -74.13302611571291 40.536240336951074,...\",Summer 2011,2011-06-01 00:00:00,,,,10.99,8.32,,,35.94,\"MULTIPOLYGON (((-74.133196 40.536307, -74.133012 40.536256, -74.133026 40.53624, -74.133207 40.536291, -74.133216 40.536279, -74.133383...\"\r\n404,Elmhurst and Corona (CD4),\"MULTIPOLYGON (((-73.84750820278065 40.739007807039215, -73.84801295264873 40.73876334447134, -73.84859447960451 40.738501171063355,...\",Summer 2009,2009-06-01 00:00:00,,,,10.83,22.96,,,24.94,\"MULTIPOLYGON (((-73.847508 40.739008, -73.848013 40.738763, -73.848594 40.738501, -73.849565 40.738106, -73.849954 40.73796, -73.850792...\"\r\n317,East Flatbush (CD17),\"MULTIPOLYGON (((-73.90755209573506 40.65118592573073, -73.90849084284662 40.65058641862271, -73.9091489008996 40.65017604274005,...\",Winter 2009-10,2009-12-01 00:00:00,,,,10.34,28.08,,,,\"MULTIPOLYGON (((-73.907552 40.651186, -73.908491 40.650586, -73.909149 40.650176, -73.909222 40.650131, -73.91007 40.649557, -73.91082...\"\r\n411,Bayside and Little Neck (CD11),\"MULTIPOLYGON (((-73.74461376070957 40.77894737610949, -73.74429289711436 40.778747261922, -73.74434568660998 40.77871622237817,...\",Winter 2009-10,2009-12-01 00:00:00,,,,9.11,23.2,,,,\"MULTIPOLYGON (((-73.744614 40.778947, -73.744293 40.778747, -73.744346 40.778716, -73.744404 40.778731, -73.744468 40.778799, -73.744546...\"\r\n409,Kew Gardens and Woodhaven (CD9),\"MULTIPOLYGON (((-73.81709738756452 40.70402980158769, -73.8169667032834 40.70374128468188, -73.81669961247347 40.70315609390807,...\",Winter 2015-16,2015-12-01 00:00:00,,,,7.8,23.62,,,,\"MULTIPOLYGON (((-73.817097 40.70403, -73.816967 40.703741, -73.8167 40.703156, -73.81659 40.702915, -73.816378 40.702452, -73.816139...\"\r\n310,Bay Ridge and Dyker Heights (CD10),\"MULTIPOLYGON (((-74.0323108423412 40.6440392144806, -74.03200953327242 40.64385780804766, -74.0260978912957 40.640270020325424,...\",Winter 2008-09,2008-12-01 00:00:00,,,,12.26,28.35,,,,\"MULTIPOLYGON (((-74.032311 40.644039, -74.03201 40.643858, -74.026098 40.64027, -74.025724 40.640631, -74.024664 40.639983, -74.024615...\"\r\n210,Throgs Neck and Co-op City (CD10),\"MULTIPOLYGON (((-73.78833349834532 40.83466712975939, -73.78931223606624 40.83446488655348, -73.78951019872315 40.83536404252575,...\",2010,2010-01-01 00:00:00,73.596321,66.532548,5.911896,,,,,,\"MULTIPOLYGON (((-73.788333 40.834667, -73.789312 40.834465, -73.78951 40.835364, -73.788457 40.83531, -73.788333 40.834667)),...\"\r\n207,Kingsbridge Heights and Bedford (CD7),\"MULTIPOLYGON (((-73.87518850162698 40.87157575630956, -73.87619257550195 40.87047695670109, -73.87694351958872 40.86995468157144,...\",Summer 2012,2012-06-01 00:00:00,,,,10.62,18.61,,,33.53,\"MULTIPOLYGON (((-73.875189 40.871576, -73.876193 40.870477, -73.876944 40.869955, -73.877728 40.869555, -73.879644 40.868508, -73.879812...\"\r\n208,Riverdale and Fieldston (CD8),\"MULTIPOLYGON (((-73.89663333863315 40.91141737484631, -73.89663068577319 40.91129892710647, -73.89663068585007 40.91129887768763,...\",Winter 2010-11,2010-12-01 00:00:00,,,,14.07,25.49,,,,\"MULTIPOLYGON (((-73.896633 40.911417, -73.896631 40.911299, -73.896631 40.911299, -73.896606 40.910202, -73.896596 40.909628, -73.896565...\"\r\n502,South Beach and Willowbrook (CD2),\"MULTIPOLYGON (((-74.07346627066252 40.57838568589747, -74.07345235029628 40.57838146400729, -74.0734369851189 40.578395684187996,...\",Winter 2010-11,2010-12-01 00:00:00,,,,11.65,23.17,,,,\"MULTIPOLYGON (((-74.073466 40.578386, -74.073452 40.578381, -74.073437 40.578396, -74.073422 40.57841, -74.073408 40.578425, -74.073395...\"\r\n"
+}

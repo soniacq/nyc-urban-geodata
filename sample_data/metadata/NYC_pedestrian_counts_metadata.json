@@ -1,0 +1,1198 @@
+{
+  "geometricType": "Point",
+  "name": "NYC_pedestrian_counts",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "nb_rows": 11970,
+  "nb_profiled_rows": 11970,
+  "nb_columns": 12,
+  "columns": [
+    {
+      "name": "the_geom",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "point_format": "long,lat",
+      "unclean_values_ratio": 0.0
+    },
+    {
+      "name": "OBJECTID",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/identifier"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 114,
+      "mean": 57.5,
+      "stddev": 32.90769920044041,
+      "coverage": [
+        {
+          "range": {
+            "gte": 2.0,
+            "lte": 38.0
+          }
+        },
+        {
+          "range": {
+            "gte": 41.0,
+            "lte": 76.0
+          }
+        },
+        {
+          "range": {
+            "gte": 79.0,
+            "lte": 113.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Loc",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 114,
+      "mean": 57.5,
+      "stddev": 32.90769920044041,
+      "coverage": [
+        {
+          "range": {
+            "gte": 2.0,
+            "lte": 38.0
+          }
+        },
+        {
+          "range": {
+            "gte": 41.0,
+            "lte": 76.0
+          }
+        },
+        {
+          "range": {
+            "gte": 79.0,
+            "lte": 113.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Borough",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 7
+    },
+    {
+      "name": "Street_Nam",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 95
+    },
+    {
+      "name": "From_Stree",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 86
+    },
+    {
+      "name": "To_Street",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.15789473684210525,
+      "num_distinct_values": 82
+    },
+    {
+      "name": "Iex",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Boolean",
+        "http://schema.org/Enumeration"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 2
+    },
+    {
+      "name": "start_date",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration",
+        "http://schema.org/DateTime"
+      ],
+      "num_distinct_values": 105
+    },
+    {
+      "name": "end_date",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration",
+        "http://schema.org/DateTime"
+      ],
+      "num_distinct_values": 105
+    },
+    {
+      "name": "count",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 5976,
+      "mean": 3298.172598162072,
+      "stddev": 4019.1031189582427,
+      "coverage": [
+        {
+          "range": {
+            "gte": 21.0,
+            "lte": 3387.0
+          }
+        },
+        {
+          "range": {
+            "gte": 3971.0,
+            "lte": 10165.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "geometry",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "point_format": "long,lat",
+      "unclean_values_ratio": 0.0
+    }
+  ],
+  "nb_spatial_columns": 2,
+  "nb_temporal_columns": 2,
+  "nb_categorical_columns": 5,
+  "nb_numerical_columns": 3,
+  "types": [
+    "categorical",
+    "numerical",
+    "spatial",
+    "temporal"
+  ],
+  "spatial_coverage": [
+    {
+      "type": "point",
+      "column_names": [
+        "the_geom"
+      ],
+      "column_indexes": [
+        0
+      ],
+      "geohashes4": [
+        {
+          "hash": "1211303202320031",
+          "number": 105
+        },
+        {
+          "hash": "1211303202320001",
+          "number": 105
+        },
+        {
+          "hash": "1211303202320320",
+          "number": 105
+        },
+        {
+          "hash": "1211303202212220",
+          "number": 105
+        },
+        {
+          "hash": "1211303202212223",
+          "number": 105
+        },
+        {
+          "hash": "1211303202212201",
+          "number": 105
+        },
+        {
+          "hash": "1211303202213200",
+          "number": 105
+        },
+        {
+          "hash": "1211303202231123",
+          "number": 105
+        },
+        {
+          "hash": "1211303202231101",
+          "number": 105
+        },
+        {
+          "hash": "1211303202230311",
+          "number": 105
+        },
+        {
+          "hash": "1211303202233011",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203322",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203301",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203021",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203211",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203201",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203202",
+          "number": 105
+        },
+        {
+          "hash": "1211303202202312",
+          "number": 105
+        },
+        {
+          "hash": "1211303202202201",
+          "number": 105
+        },
+        {
+          "hash": "1211302313023330",
+          "number": 105
+        },
+        {
+          "hash": "1211302313022132",
+          "number": 105
+        },
+        {
+          "hash": "1211302313021123",
+          "number": 105
+        },
+        {
+          "hash": "1211302313021031",
+          "number": 105
+        },
+        {
+          "hash": "1211302313033203",
+          "number": 105
+        },
+        {
+          "hash": "1211302313003200",
+          "number": 105
+        },
+        {
+          "hash": "1211302313211201",
+          "number": 105
+        },
+        {
+          "hash": "1211302313211220",
+          "number": 105
+        },
+        {
+          "hash": "1211302313211212",
+          "number": 105
+        },
+        {
+          "hash": "1211302313211130",
+          "number": 210
+        },
+        {
+          "hash": "1211302313211133",
+          "number": 210
+        },
+        {
+          "hash": "1211302313211331",
+          "number": 105
+        },
+        {
+          "hash": "1211302313210310",
+          "number": 105
+        },
+        {
+          "hash": "1211302313212002",
+          "number": 105
+        },
+        {
+          "hash": "1211302313212000",
+          "number": 105
+        },
+        {
+          "hash": "1211302313201320",
+          "number": 105
+        },
+        {
+          "hash": "1211302313202223",
+          "number": 105
+        },
+        {
+          "hash": "1211302313202000",
+          "number": 105
+        },
+        {
+          "hash": "1211302313230111",
+          "number": 105
+        },
+        {
+          "hash": "1211302313233131",
+          "number": 105
+        },
+        {
+          "hash": "1211302313303000",
+          "number": 105
+        },
+        {
+          "hash": "1211302313302033",
+          "number": 105
+        },
+        {
+          "hash": "1211302313302130",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300002",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300013",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300031",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300113",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300102",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300121",
+          "number": 210
+        },
+        {
+          "hash": "1211302313300313",
+          "number": 105
+        },
+        {
+          "hash": "1211302313301021",
+          "number": 105
+        },
+        {
+          "hash": "1211302313301131",
+          "number": 105
+        },
+        {
+          "hash": "1211302313301103",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311122",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311311",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311320",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311202",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311200",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311220",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311022",
+          "number": 210
+        },
+        {
+          "hash": "1211302313311023",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311012",
+          "number": 105
+        },
+        {
+          "hash": "1211302313310301",
+          "number": 105
+        },
+        {
+          "hash": "1211302313310311",
+          "number": 210
+        },
+        {
+          "hash": "1211302313310313",
+          "number": 315
+        },
+        {
+          "hash": "1211302313310330",
+          "number": 210
+        },
+        {
+          "hash": "1211302313310131",
+          "number": 105
+        },
+        {
+          "hash": "1211302313310120",
+          "number": 210
+        },
+        {
+          "hash": "1211302313310123",
+          "number": 105
+        },
+        {
+          "hash": "1211302313310001",
+          "number": 105
+        },
+        {
+          "hash": "1211302313312033",
+          "number": 105
+        },
+        {
+          "hash": "1211302313312122",
+          "number": 105
+        },
+        {
+          "hash": "1211302313312111",
+          "number": 105
+        },
+        {
+          "hash": "1211302313313222",
+          "number": 105
+        },
+        {
+          "hash": "1211302313330300",
+          "number": 105
+        },
+        {
+          "hash": "1211302313330302",
+          "number": 105
+        },
+        {
+          "hash": "1211302313333222",
+          "number": 315
+        },
+        {
+          "hash": "1211302313323201",
+          "number": 105
+        },
+        {
+          "hash": "1211302313323210",
+          "number": 105
+        },
+        {
+          "hash": "1211302313323110",
+          "number": 105
+        },
+        {
+          "hash": "1211302313320033",
+          "number": 105
+        },
+        {
+          "hash": "1211302313320030",
+          "number": 105
+        },
+        {
+          "hash": "1211302313320012",
+          "number": 105
+        },
+        {
+          "hash": "1211302313322333",
+          "number": 105
+        },
+        {
+          "hash": "1211302313122320",
+          "number": 210
+        },
+        {
+          "hash": "1211302313122323",
+          "number": 105
+        },
+        {
+          "hash": "1211302313122321",
+          "number": 210
+        },
+        {
+          "hash": "1211302313122332",
+          "number": 105
+        },
+        {
+          "hash": "1211302313123220",
+          "number": 105
+        },
+        {
+          "hash": "1211302312310323",
+          "number": 105
+        },
+        {
+          "hash": "1211302312313001",
+          "number": 105
+        },
+        {
+          "hash": "1211302312112211",
+          "number": 105
+        },
+        {
+          "hash": "1211302312111021",
+          "number": 105
+        },
+        {
+          "hash": "1211302331100302",
+          "number": 210
+        },
+        {
+          "hash": "1211302331100330",
+          "number": 105
+        },
+        {
+          "hash": "1211302331100211",
+          "number": 105
+        },
+        {
+          "hash": "1211302331100223",
+          "number": 105
+        },
+        {
+          "hash": "1211302331100033",
+          "number": 105
+        },
+        {
+          "hash": "1211302331113021",
+          "number": 105
+        },
+        {
+          "hash": "1211302331111201",
+          "number": 105
+        },
+        {
+          "hash": "1211302330113313",
+          "number": 105
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.10857607699721,
+                40.731436017707075
+              ],
+              [
+                -73.94255463338305,
+                40.58754340485192
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.98934552114228,
+                40.873547359000106
+              ],
+              [
+                -73.88956389732787,
+                40.75045405486473
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.90192709081789,
+                40.76247070217481
+              ],
+              [
+                -73.77114917957029,
+                40.6925963247586
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 11970
+    },
+    {
+      "type": "point",
+      "column_names": [
+        "geometry"
+      ],
+      "column_indexes": [
+        11
+      ],
+      "geohashes4": [
+        {
+          "hash": "1211303202320031",
+          "number": 105
+        },
+        {
+          "hash": "1211303202320001",
+          "number": 105
+        },
+        {
+          "hash": "1211303202320320",
+          "number": 105
+        },
+        {
+          "hash": "1211303202212220",
+          "number": 105
+        },
+        {
+          "hash": "1211303202212223",
+          "number": 105
+        },
+        {
+          "hash": "1211303202212201",
+          "number": 105
+        },
+        {
+          "hash": "1211303202213200",
+          "number": 105
+        },
+        {
+          "hash": "1211303202231123",
+          "number": 105
+        },
+        {
+          "hash": "1211303202231101",
+          "number": 105
+        },
+        {
+          "hash": "1211303202230311",
+          "number": 105
+        },
+        {
+          "hash": "1211303202233011",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203322",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203301",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203021",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203211",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203201",
+          "number": 105
+        },
+        {
+          "hash": "1211303202203202",
+          "number": 105
+        },
+        {
+          "hash": "1211303202202312",
+          "number": 105
+        },
+        {
+          "hash": "1211303202202201",
+          "number": 105
+        },
+        {
+          "hash": "1211302313023330",
+          "number": 105
+        },
+        {
+          "hash": "1211302313022132",
+          "number": 105
+        },
+        {
+          "hash": "1211302313021123",
+          "number": 105
+        },
+        {
+          "hash": "1211302313021031",
+          "number": 105
+        },
+        {
+          "hash": "1211302313033203",
+          "number": 105
+        },
+        {
+          "hash": "1211302313003200",
+          "number": 105
+        },
+        {
+          "hash": "1211302313211201",
+          "number": 105
+        },
+        {
+          "hash": "1211302313211220",
+          "number": 105
+        },
+        {
+          "hash": "1211302313211212",
+          "number": 105
+        },
+        {
+          "hash": "1211302313211130",
+          "number": 210
+        },
+        {
+          "hash": "1211302313211133",
+          "number": 210
+        },
+        {
+          "hash": "1211302313211331",
+          "number": 105
+        },
+        {
+          "hash": "1211302313210310",
+          "number": 105
+        },
+        {
+          "hash": "1211302313212002",
+          "number": 105
+        },
+        {
+          "hash": "1211302313212000",
+          "number": 105
+        },
+        {
+          "hash": "1211302313201320",
+          "number": 105
+        },
+        {
+          "hash": "1211302313202223",
+          "number": 105
+        },
+        {
+          "hash": "1211302313202000",
+          "number": 105
+        },
+        {
+          "hash": "1211302313230111",
+          "number": 105
+        },
+        {
+          "hash": "1211302313233131",
+          "number": 105
+        },
+        {
+          "hash": "1211302313303000",
+          "number": 105
+        },
+        {
+          "hash": "1211302313302033",
+          "number": 105
+        },
+        {
+          "hash": "1211302313302130",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300002",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300013",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300031",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300113",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300102",
+          "number": 105
+        },
+        {
+          "hash": "1211302313300121",
+          "number": 210
+        },
+        {
+          "hash": "1211302313300313",
+          "number": 105
+        },
+        {
+          "hash": "1211302313301021",
+          "number": 105
+        },
+        {
+          "hash": "1211302313301131",
+          "number": 105
+        },
+        {
+          "hash": "1211302313301103",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311122",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311311",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311320",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311202",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311200",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311220",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311022",
+          "number": 210
+        },
+        {
+          "hash": "1211302313311023",
+          "number": 105
+        },
+        {
+          "hash": "1211302313311012",
+          "number": 105
+        },
+        {
+          "hash": "1211302313310301",
+          "number": 105
+        },
+        {
+          "hash": "1211302313310311",
+          "number": 210
+        },
+        {
+          "hash": "1211302313310313",
+          "number": 315
+        },
+        {
+          "hash": "1211302313310330",
+          "number": 210
+        },
+        {
+          "hash": "1211302313310131",
+          "number": 105
+        },
+        {
+          "hash": "1211302313310120",
+          "number": 210
+        },
+        {
+          "hash": "1211302313310123",
+          "number": 105
+        },
+        {
+          "hash": "1211302313310001",
+          "number": 105
+        },
+        {
+          "hash": "1211302313312033",
+          "number": 105
+        },
+        {
+          "hash": "1211302313312122",
+          "number": 105
+        },
+        {
+          "hash": "1211302313312111",
+          "number": 105
+        },
+        {
+          "hash": "1211302313313222",
+          "number": 105
+        },
+        {
+          "hash": "1211302313330300",
+          "number": 105
+        },
+        {
+          "hash": "1211302313330302",
+          "number": 105
+        },
+        {
+          "hash": "1211302313333222",
+          "number": 315
+        },
+        {
+          "hash": "1211302313323201",
+          "number": 105
+        },
+        {
+          "hash": "1211302313323210",
+          "number": 105
+        },
+        {
+          "hash": "1211302313323110",
+          "number": 105
+        },
+        {
+          "hash": "1211302313320033",
+          "number": 105
+        },
+        {
+          "hash": "1211302313320030",
+          "number": 105
+        },
+        {
+          "hash": "1211302313320012",
+          "number": 105
+        },
+        {
+          "hash": "1211302313322333",
+          "number": 105
+        },
+        {
+          "hash": "1211302313122320",
+          "number": 210
+        },
+        {
+          "hash": "1211302313122323",
+          "number": 105
+        },
+        {
+          "hash": "1211302313122321",
+          "number": 210
+        },
+        {
+          "hash": "1211302313122332",
+          "number": 105
+        },
+        {
+          "hash": "1211302313123220",
+          "number": 105
+        },
+        {
+          "hash": "1211302312310323",
+          "number": 105
+        },
+        {
+          "hash": "1211302312313001",
+          "number": 105
+        },
+        {
+          "hash": "1211302312112211",
+          "number": 105
+        },
+        {
+          "hash": "1211302312111021",
+          "number": 105
+        },
+        {
+          "hash": "1211302331100302",
+          "number": 210
+        },
+        {
+          "hash": "1211302331100330",
+          "number": 105
+        },
+        {
+          "hash": "1211302331100211",
+          "number": 105
+        },
+        {
+          "hash": "1211302331100223",
+          "number": 105
+        },
+        {
+          "hash": "1211302331100033",
+          "number": 105
+        },
+        {
+          "hash": "1211302331113021",
+          "number": 105
+        },
+        {
+          "hash": "1211302331111201",
+          "number": 105
+        },
+        {
+          "hash": "1211302330113313",
+          "number": 105
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.108576,
+                40.731436
+              ],
+              [
+                -73.942555,
+                40.587543
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.989346,
+                40.873547
+              ],
+              [
+                -73.889564,
+                40.750454
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.901927,
+                40.762471
+              ],
+              [
+                -73.771149,
+                40.692596
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 11970
+    }
+  ],
+  "temporal_coverage": [
+    {
+      "type": "datetime",
+      "column_names": [
+        "start_date"
+      ],
+      "column_indexes": [
+        8
+      ],
+      "column_types": [
+        "http://schema.org/DateTime"
+      ],
+      "ranges": [
+        {
+          "range": {
+            "gte": 1178020864.0,
+            "lte": 1367409664.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1378036736.0,
+            "lte": 1556711936.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1601553664.0,
+            "lte": 1746100736.0
+          }
+        }
+      ],
+      "temporal_resolution": "hour"
+    },
+    {
+      "type": "datetime",
+      "column_names": [
+        "end_date"
+      ],
+      "column_indexes": [
+        9
+      ],
+      "column_types": [
+        "http://schema.org/DateTime"
+      ],
+      "ranges": [
+        {
+          "range": {
+            "gte": 1178028032.0,
+            "lte": 1367416832.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1378044032.0,
+            "lte": 1556719232.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1601560832.0,
+            "lte": 1746108032.0
+          }
+        }
+      ],
+      "temporal_resolution": "hour"
+    }
+  ],
+  "attribute_keywords": [
+    "the_geom",
+    "the",
+    "geom",
+    "OBJECTID",
+    "Loc",
+    "Borough",
+    "Street_Nam",
+    "Street",
+    "Nam",
+    "From_Stree",
+    "From",
+    "Stree",
+    "To_Street",
+    "To",
+    "Street",
+    "Iex",
+    "start_date",
+    "start",
+    "date",
+    "end_date",
+    "end",
+    "date",
+    "count",
+    "geometry"
+  ],
+  "sample": "the_geom,OBJECTID,Loc,Borough,Street_Nam,From_Stree,To_Street,Iex,start_date,end_date,count,geometry\r\nPOINT (-73.89535781584335 40.86215460031517),3,3,Bronx,East Fordham Road,Valentine Avenue,Tiebout Avenue,Y,2007-05-01 07:00:00,2007-05-01 09:00:00,1832.0,POINT (-73.895358 40.862155)\r\nPOINT (-73.98983165443038 40.68884781602201),13,13,Brooklyn,Atlantic Avenue,Boerum Place,Smith Street,N,2007-05-01 12:00:00,2007-05-01 14:00:00,836.0,POINT (-73.989832 40.688848)\r\nPOINT (-73.93947115150922 40.74817129070961),78,78,Queens,Jackson Avenue,Queens Street,42 Road,N,2007-09-01 07:00:00,2007-09-01 09:00:00,411.0,POINT (-73.939471 40.748171)\r\nPOINT (-73.80593752065842 40.70182238071845),79,79,Queens,Jamaica Avenue,148th Street,149th Street,N,2008-05-01 16:00:00,2008-05-01 19:00:00,3020.0,POINT (-73.805938 40.701822)\r\nPOINT (-73.89535781584335 40.86215460031517),3,3,Bronx,East Fordham Road,Valentine Avenue,Tiebout Avenue,Y,2008-09-01 12:00:00,2008-09-01 14:00:00,8013.0,POINT (-73.895358 40.862155)\r\nPOINT (-73.98727479290567 40.69272414021878),26,26,Brooklyn,Jay Street,Willoughby Street,Metrotech Walk,Y,2009-05-01 07:00:00,2009-05-01 09:00:00,2519.0,POINT (-73.987275 40.692724)\r\nPOINT (-73.97514418621735 40.761353610911776),45,45,Manhattan,Fifth Avenue,East 54th Street,East 55th Street,Y,2010-09-01 16:00:00,2010-09-01 19:00:00,24601.0,POINT (-73.975144 40.761354)\r\nPOINT (-73.98303507483828 40.76140611887666),67,67,Manhattan,Seventh Avenue,50th Street,51st Street,N,2011-09-01 12:00:00,2011-09-01 14:00:00,6135.0,POINT (-73.983035 40.761406)\r\nPOINT (-73.99094199014799 40.70806538980731),102,102,East River Bridges,Manhattan Bridge  North Path,midpoint,,N,2012-09-01 16:00:00,2012-09-01 19:00:00,41.0,POINT (-73.990942 40.708065)\r\nPOINT (-73.99694382805035 40.7673124325193),70,70,Manhattan,Hudson River Greenway,50th Street,51st Street,N,2013-05-01 07:00:00,2013-05-01 09:00:00,291.0,POINT (-73.996944 40.767312)\r\nPOINT (-73.96568512678532 40.77144062263456),50,50,Manhattan,Madison Avenue,East 71st Street,East 72 Street,N,2013-05-01 12:00:00,2013-05-01 14:00:00,3102.0,POINT (-73.965685 40.771441)\r\nPOINT (-73.98017962622333 40.757338486389926),59,59,Manhattan,West 47th Street,Avenue of the Americas,Fifth Avenue,N,2014-09-01 16:00:00,2014-09-01 19:00:00,12687.0,POINT (-73.98018 40.757338)\r\nPOINT (-73.90192709081789 40.70048761323586),86,86,Queens,Myrtle Avenue,Weirfield Street,Centre Street,N,2015-09-01 12:00:00,2015-09-01 14:00:00,2672.0,POINT (-73.901927 40.700488)\r\nPOINT (-73.93947115150922 40.74817129070961),78,78,Queens,Jackson Avenue,Queens Street,42 Road,N,2017-05-01 16:00:00,2017-05-01 19:00:00,999.0,POINT (-73.939471 40.748171)\r\nPOINT (-73.97665547944715 40.75169473512389),42,42,Manhattan,East 42 Street,Park Avenue,Lexington Avenue,Y,2017-09-01 16:00:00,2017-09-01 19:00:00,16529.0,POINT (-73.976655 40.751695)\r\nPOINT (-73.99441204702927 40.731436017707075),43,43,Manhattan,East 8th Street,University Place,Greene Street,N,2018-09-01 16:00:00,2018-09-01 19:00:00,5929.0,POINT (-73.994412 40.731436)\r\nPOINT (-73.80439743099372 40.76247070217481),87,87,Queens,Northern Boulevard,50' East of 161st Street,,N,2021-05-01 12:00:00,2021-05-01 14:00:00,329.0,POINT (-73.804397 40.762471)\r\nPOINT (-73.80593752065842 40.70182238071845),79,79,Queens,Jamaica Avenue,148th Street,149th Street,N,2021-10-01 16:00:00,2021-10-01 19:00:00,2527.0,POINT (-73.805938 40.701822)\r\nPOINT (-73.98727479290567 40.69272414021878),26,26,Brooklyn,Jay Street,Willoughby Street,Metrotech Walk,Y,2022-05-01 16:00:00,2022-05-01 19:00:00,0.0,POINT (-73.987275 40.692724)\r\nPOINT (-73.8086047835953 40.70340462655154),94,94,Queens,Sutphin Boulevard,89th Avenue,90th Avenue,N,2023-05-01 16:00:00,2023-05-01 19:00:00,2029.0,POINT (-73.808605 40.703405)\r\n"
+}

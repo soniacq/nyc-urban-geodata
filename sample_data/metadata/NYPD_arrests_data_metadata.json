@@ -1,0 +1,1124 @@
+{
+  "geometricType": "Point",
+  "name": null,
+  "crs": null,
+  "nb_rows": 14649,
+  "nb_profiled_rows": 14649,
+  "nb_columns": 20,
+  "columns": [
+    {
+      "name": "ARREST_KEY",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 14649,
+      "mean": 122240871.55007167,
+      "stddev": 77462861.66556478,
+      "coverage": [
+        {
+          "range": {
+            "gte": 16713385.0,
+            "lte": 93656705.0
+          }
+        },
+        {
+          "range": {
+            "gte": 137584796.0,
+            "lte": 203008619.0
+          }
+        },
+        {
+          "range": {
+            "gte": 215659322.0,
+            "lte": 295238131.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "ARREST_DATE",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/DateTime"
+      ],
+      "num_distinct_values": 5794
+    },
+    {
+      "name": "PD_CD",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 6.82640453273261e-05,
+      "num_distinct_values": 201,
+      "mean": 501.60738667394867,
+      "stddev": 266.55260258100407,
+      "coverage": [
+        {
+          "range": {
+            "gte": 101.0,
+            "lte": 268.0
+          }
+        },
+        {
+          "range": {
+            "gte": 339.0,
+            "lte": 625.0
+          }
+        },
+        {
+          "range": {
+            "gte": 705.0,
+            "lte": 969.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "PD_DESC",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.0013652809065465218,
+      "num_distinct_values": 247
+    },
+    {
+      "name": "KY_CD",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.0014335449518738481,
+      "num_distinct_values": 61,
+      "mean": 291.3626606508067,
+      "stddev": 175.9001384350862,
+      "coverage": [
+        {
+          "range": {
+            "gte": 105.0,
+            "lte": 235.0
+          }
+        },
+        {
+          "range": {
+            "gte": 341.0,
+            "lte": 361.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "OFNS_DESC",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.0013652809065465218,
+      "num_distinct_values": 68
+    },
+    {
+      "name": "LAW_CODE",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 609
+    },
+    {
+      "name": "LAW_CAT_CD",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.0031401460850570004,
+      "num_distinct_values": 5
+    },
+    {
+      "name": "ARREST_BORO",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 5
+    },
+    {
+      "name": "ARREST_PRECINCT",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 77,
+      "mean": 61.085057000477846,
+      "stddev": 34.41218950016766,
+      "coverage": [
+        {
+          "range": {
+            "gte": 5.0,
+            "lte": 50.0
+          }
+        },
+        {
+          "range": {
+            "gte": 61.0,
+            "lte": 88.0
+          }
+        },
+        {
+          "range": {
+            "gte": 101.0,
+            "lte": 122.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "JURISDICTION_CODE",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 21,
+      "mean": 1.33852140077821,
+      "stddev": 9.565444670678156,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "AGE_GROUP",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 5
+    },
+    {
+      "name": "PERP_SEX",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 3
+    },
+    {
+      "name": "PERP_RACE",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 8
+    },
+    {
+      "name": "X_COORD_CD",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 8152,
+      "mean": 1005325.9270939996,
+      "stddev": 20279.68202022829,
+      "coverage": [
+        {
+          "range": {
+            "gte": 983133.0,
+            "lte": 1011316.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1013787.0,
+            "lte": 1052931.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Y_COORD_CD",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 8373,
+      "mean": 214018.1001433545,
+      "stddev": 166216.2114093212,
+      "coverage": [
+        {
+          "range": {
+            "gte": 160090.0,
+            "lte": 254037.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Latitude",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/latitude"
+      ],
+      "unclean_values_ratio": 0.0,
+      "mean": 40.753859751038725,
+      "stddev": 0.4477819635160619,
+      "coverage": [
+        {
+          "range": {
+            "gte": 40.605833272,
+            "lte": 40.863838685
+          }
+        }
+      ]
+    },
+    {
+      "name": "Longitude",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/longitude"
+      ],
+      "unclean_values_ratio": 0.0,
+      "mean": -73.92388907679882,
+      "stddev": 0.07318128944277023,
+      "coverage": [
+        {
+          "range": {
+            "gte": -74.1437187,
+            "lte": -73.971143263
+          }
+        },
+        {
+          "range": {
+            "gte": -73.957999385,
+            "lte": -73.878863042
+          }
+        },
+        {
+          "range": {
+            "gte": -73.869673121,
+            "lte": -73.745342484
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lon_Lat",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "point_format": "long,lat",
+      "unclean_values_ratio": 0.0
+    },
+    {
+      "name": "geometry",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "point_format": "long,lat",
+      "unclean_values_ratio": 0.0
+    }
+  ],
+  "nb_spatial_columns": 4,
+  "nb_temporal_columns": 1,
+  "nb_categorical_columns": 8,
+  "nb_numerical_columns": 7,
+  "types": [
+    "categorical",
+    "numerical",
+    "spatial",
+    "temporal"
+  ],
+  "spatial_coverage": [
+    {
+      "type": "latlong",
+      "column_names": [
+        "Latitude",
+        "Longitude"
+      ],
+      "column_indexes": [
+        16,
+        17
+      ],
+      "geohashes4": [
+        {
+          "hash": "121130231321",
+          "number": 1369
+        },
+        {
+          "hash": "121130231323",
+          "number": 1009
+        },
+        {
+          "hash": "121130231320",
+          "number": 557
+        },
+        {
+          "hash": "121130231322",
+          "number": 102
+        },
+        {
+          "hash": "121130231331",
+          "number": 1332
+        },
+        {
+          "hash": "121130231333",
+          "number": 668
+        },
+        {
+          "hash": "121130231330",
+          "number": 1244
+        },
+        {
+          "hash": "121130231332",
+          "number": 388
+        },
+        {
+          "hash": "121130231300",
+          "number": 161
+        },
+        {
+          "hash": "121130231302",
+          "number": 370
+        },
+        {
+          "hash": "121130231303",
+          "number": 52
+        },
+        {
+          "hash": "121130231312",
+          "number": 196
+        },
+        {
+          "hash": "121130231313",
+          "number": 39
+        },
+        {
+          "hash": "121130231231",
+          "number": 332
+        },
+        {
+          "hash": "121130231233",
+          "number": 16
+        },
+        {
+          "hash": "121130231210",
+          "number": 29
+        },
+        {
+          "hash": "121130231211",
+          "number": 101
+        },
+        {
+          "hash": "121130231213",
+          "number": 36
+        },
+        {
+          "hash": "121130231023",
+          "number": 14
+        },
+        {
+          "hash": "121130231032",
+          "number": 32
+        },
+        {
+          "hash": "121130231033",
+          "number": 3
+        },
+        {
+          "hash": "121130231122",
+          "number": 2
+        },
+        {
+          "hash": "121130233110",
+          "number": 527
+        },
+        {
+          "hash": "121130233113",
+          "number": 21
+        },
+        {
+          "hash": "121130233112",
+          "number": 74
+        },
+        {
+          "hash": "121130233111",
+          "number": 154
+        },
+        {
+          "hash": "121130233101",
+          "number": 383
+        },
+        {
+          "hash": "121130233100",
+          "number": 25
+        },
+        {
+          "hash": "121130233103",
+          "number": 21
+        },
+        {
+          "hash": "121130233011",
+          "number": 162
+        },
+        {
+          "hash": "121130320222",
+          "number": 651
+        },
+        {
+          "hash": "121130320220",
+          "number": 1600
+        },
+        {
+          "hash": "121130320221",
+          "number": 879
+        },
+        {
+          "hash": "121130320223",
+          "number": 1476
+        },
+        {
+          "hash": "121130320232",
+          "number": 516
+        },
+        {
+          "hash": "121130320233",
+          "number": 9
+        },
+        {
+          "hash": "121130322001",
+          "number": 58
+        },
+        {
+          "hash": "121130322000",
+          "number": 21
+        },
+        {
+          "hash": "121130322010",
+          "number": 5
+        },
+        {
+          "hash": "121131233101",
+          "number": 3
+        },
+        {
+          "hash": "130030231223",
+          "number": 1
+        },
+        {
+          "hash": "130030232112",
+          "number": 1
+        },
+        {
+          "hash": "130031232011",
+          "number": 1
+        },
+        {
+          "hash": "130021231222",
+          "number": 1
+        },
+        {
+          "hash": "130021231322",
+          "number": 1
+        },
+        {
+          "hash": "130020231232",
+          "number": 1
+        },
+        {
+          "hash": "130130222100",
+          "number": 1
+        },
+        {
+          "hash": "130121221233",
+          "number": 1
+        },
+        {
+          "hash": "130121221322",
+          "number": 1
+        },
+        {
+          "hash": "130121221323",
+          "number": 1
+        },
+        {
+          "hash": "130121223011",
+          "number": 2
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.01060963,
+                40.863838685
+              ],
+              [
+                -73.79209,
+                40.605833272
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 14649
+    },
+    {
+      "type": "point",
+      "column_names": [
+        "Lon_Lat"
+      ],
+      "column_indexes": [
+        18
+      ],
+      "geohashes4": [
+        {
+          "hash": "121130231321",
+          "number": 1369
+        },
+        {
+          "hash": "121130231323",
+          "number": 1009
+        },
+        {
+          "hash": "121130231320",
+          "number": 557
+        },
+        {
+          "hash": "121130231322",
+          "number": 102
+        },
+        {
+          "hash": "121130231331",
+          "number": 1332
+        },
+        {
+          "hash": "121130231333",
+          "number": 668
+        },
+        {
+          "hash": "121130231330",
+          "number": 1244
+        },
+        {
+          "hash": "121130231332",
+          "number": 388
+        },
+        {
+          "hash": "121130231300",
+          "number": 161
+        },
+        {
+          "hash": "121130231302",
+          "number": 370
+        },
+        {
+          "hash": "121130231303",
+          "number": 52
+        },
+        {
+          "hash": "121130231312",
+          "number": 196
+        },
+        {
+          "hash": "121130231313",
+          "number": 39
+        },
+        {
+          "hash": "121130231231",
+          "number": 332
+        },
+        {
+          "hash": "121130231233",
+          "number": 16
+        },
+        {
+          "hash": "121130231210",
+          "number": 29
+        },
+        {
+          "hash": "121130231211",
+          "number": 101
+        },
+        {
+          "hash": "121130231213",
+          "number": 36
+        },
+        {
+          "hash": "121130231023",
+          "number": 14
+        },
+        {
+          "hash": "121130231032",
+          "number": 32
+        },
+        {
+          "hash": "121130231033",
+          "number": 3
+        },
+        {
+          "hash": "121130231122",
+          "number": 2
+        },
+        {
+          "hash": "121130233110",
+          "number": 527
+        },
+        {
+          "hash": "121130233113",
+          "number": 21
+        },
+        {
+          "hash": "121130233112",
+          "number": 74
+        },
+        {
+          "hash": "121130233111",
+          "number": 154
+        },
+        {
+          "hash": "121130233101",
+          "number": 383
+        },
+        {
+          "hash": "121130233100",
+          "number": 25
+        },
+        {
+          "hash": "121130233103",
+          "number": 21
+        },
+        {
+          "hash": "121130233011",
+          "number": 162
+        },
+        {
+          "hash": "121130320222",
+          "number": 651
+        },
+        {
+          "hash": "121130320220",
+          "number": 1600
+        },
+        {
+          "hash": "121130320221",
+          "number": 879
+        },
+        {
+          "hash": "121130320223",
+          "number": 1476
+        },
+        {
+          "hash": "121130320232",
+          "number": 516
+        },
+        {
+          "hash": "121130320233",
+          "number": 9
+        },
+        {
+          "hash": "121130322001",
+          "number": 58
+        },
+        {
+          "hash": "121130322000",
+          "number": 21
+        },
+        {
+          "hash": "121130322010",
+          "number": 5
+        },
+        {
+          "hash": "121131233101",
+          "number": 3
+        },
+        {
+          "hash": "130030231223",
+          "number": 1
+        },
+        {
+          "hash": "130030232112",
+          "number": 1
+        },
+        {
+          "hash": "130031232011",
+          "number": 1
+        },
+        {
+          "hash": "130021231222",
+          "number": 1
+        },
+        {
+          "hash": "130021231322",
+          "number": 1
+        },
+        {
+          "hash": "130020231232",
+          "number": 1
+        },
+        {
+          "hash": "130130222100",
+          "number": 1
+        },
+        {
+          "hash": "130121221233",
+          "number": 1
+        },
+        {
+          "hash": "130121221322",
+          "number": 1
+        },
+        {
+          "hash": "130121221323",
+          "number": 1
+        },
+        {
+          "hash": "130121223011",
+          "number": 2
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.01060962999998,
+                40.863838685000076
+              ],
+              [
+                -73.79209,
+                40.60583327200004
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 14649
+    },
+    {
+      "type": "point",
+      "column_names": [
+        "geometry"
+      ],
+      "column_indexes": [
+        19
+      ],
+      "geohashes4": [
+        {
+          "hash": "121130231321",
+          "number": 1369
+        },
+        {
+          "hash": "121130231323",
+          "number": 1009
+        },
+        {
+          "hash": "121130231320",
+          "number": 557
+        },
+        {
+          "hash": "121130231322",
+          "number": 102
+        },
+        {
+          "hash": "121130231331",
+          "number": 1332
+        },
+        {
+          "hash": "121130231333",
+          "number": 668
+        },
+        {
+          "hash": "121130231330",
+          "number": 1244
+        },
+        {
+          "hash": "121130231332",
+          "number": 388
+        },
+        {
+          "hash": "121130231300",
+          "number": 161
+        },
+        {
+          "hash": "121130231302",
+          "number": 370
+        },
+        {
+          "hash": "121130231303",
+          "number": 52
+        },
+        {
+          "hash": "121130231312",
+          "number": 196
+        },
+        {
+          "hash": "121130231313",
+          "number": 39
+        },
+        {
+          "hash": "121130231231",
+          "number": 332
+        },
+        {
+          "hash": "121130231233",
+          "number": 16
+        },
+        {
+          "hash": "121130231210",
+          "number": 29
+        },
+        {
+          "hash": "121130231211",
+          "number": 101
+        },
+        {
+          "hash": "121130231213",
+          "number": 36
+        },
+        {
+          "hash": "121130231023",
+          "number": 14
+        },
+        {
+          "hash": "121130231032",
+          "number": 32
+        },
+        {
+          "hash": "121130231033",
+          "number": 3
+        },
+        {
+          "hash": "121130231122",
+          "number": 2
+        },
+        {
+          "hash": "121130233110",
+          "number": 527
+        },
+        {
+          "hash": "121130233113",
+          "number": 21
+        },
+        {
+          "hash": "121130233112",
+          "number": 74
+        },
+        {
+          "hash": "121130233111",
+          "number": 154
+        },
+        {
+          "hash": "121130233101",
+          "number": 383
+        },
+        {
+          "hash": "121130233100",
+          "number": 25
+        },
+        {
+          "hash": "121130233103",
+          "number": 21
+        },
+        {
+          "hash": "121130233011",
+          "number": 162
+        },
+        {
+          "hash": "121130320222",
+          "number": 651
+        },
+        {
+          "hash": "121130320220",
+          "number": 1600
+        },
+        {
+          "hash": "121130320221",
+          "number": 879
+        },
+        {
+          "hash": "121130320223",
+          "number": 1476
+        },
+        {
+          "hash": "121130320232",
+          "number": 516
+        },
+        {
+          "hash": "121130320233",
+          "number": 9
+        },
+        {
+          "hash": "121130322001",
+          "number": 58
+        },
+        {
+          "hash": "121130322000",
+          "number": 21
+        },
+        {
+          "hash": "121130322010",
+          "number": 5
+        },
+        {
+          "hash": "121131233101",
+          "number": 3
+        },
+        {
+          "hash": "130030231223",
+          "number": 1
+        },
+        {
+          "hash": "130030232112",
+          "number": 1
+        },
+        {
+          "hash": "130031232011",
+          "number": 1
+        },
+        {
+          "hash": "130021231222",
+          "number": 1
+        },
+        {
+          "hash": "130021231322",
+          "number": 1
+        },
+        {
+          "hash": "130020231232",
+          "number": 1
+        },
+        {
+          "hash": "130130222100",
+          "number": 1
+        },
+        {
+          "hash": "130121221233",
+          "number": 1
+        },
+        {
+          "hash": "130121221322",
+          "number": 1
+        },
+        {
+          "hash": "130121221323",
+          "number": 1
+        },
+        {
+          "hash": "130121223011",
+          "number": 2
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.01061,
+                40.863839
+              ],
+              [
+                -73.79209,
+                40.605833
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 14649
+    }
+  ],
+  "temporal_coverage": [
+    {
+      "type": "datetime",
+      "column_names": [
+        "ARREST_DATE"
+      ],
+      "column_indexes": [
+        1
+      ],
+      "column_types": [
+        "http://schema.org/DateTime"
+      ],
+      "ranges": [
+        {
+          "range": {
+            "gte": 1146268800.0,
+            "lte": 1314662400.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1333065600.0,
+            "lte": 1515110400.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1534809600.0,
+            "lte": 1727827200.0
+          }
+        }
+      ],
+      "temporal_resolution": "day"
+    }
+  ],
+  "attribute_keywords": [
+    "ARREST_KEY",
+    "ARREST",
+    "KEY",
+    "ARREST_DATE",
+    "ARREST",
+    "DATE",
+    "PD_CD",
+    "PD",
+    "CD",
+    "PD_DESC",
+    "PD",
+    "DESC",
+    "KY_CD",
+    "KY",
+    "CD",
+    "OFNS_DESC",
+    "OFNS",
+    "DESC",
+    "LAW_CODE",
+    "LAW",
+    "CODE",
+    "LAW_CAT_CD",
+    "LAW",
+    "CAT",
+    "CD",
+    "ARREST_BORO",
+    "ARREST",
+    "BORO",
+    "ARREST_PRECINCT",
+    "ARREST",
+    "PRECINCT",
+    "JURISDICTION_CODE",
+    "JURISDICTION",
+    "CODE",
+    "AGE_GROUP",
+    "AGE",
+    "GROUP",
+    "PERP_SEX",
+    "PERP",
+    "SEX",
+    "PERP_RACE",
+    "PERP",
+    "RACE",
+    "X_COORD_CD",
+    "X",
+    "COORD",
+    "CD",
+    "Y_COORD_CD",
+    "Y",
+    "COORD",
+    "CD",
+    "Latitude",
+    "Longitude",
+    "Lon_Lat",
+    "Lon",
+    "Lat",
+    "geometry"
+  ],
+  "sample": "ARREST_KEY,ARREST_DATE,PD_CD,PD_DESC,KY_CD,OFNS_DESC,LAW_CODE,LAW_CAT_CD,ARREST_BORO,ARREST_PRECINCT,JURISDICTION_CODE,AGE_GROUP,PERP_SEX,PERP_RACE,X_COORD_CD,Y_COORD_CD,Latitude,Longitude,Lon_Lat,geometry\r\n297650573,12/07/2024,922.0,\"TRAFFIC,UNCLASSIFIED MISDEMEAN\",348.0,VEHICLE AND TRAFFIC LAWS,VTL0511001,M,B,40,0.0,25-44,M,BLACK,1006762.0,236697.0,40.816328,-73.918668,POINT (-73.918668 40.816328),POINT (-73.918668 40.816328)\r\n261751182,01/11/2023,339.0,\"LARCENY,PETIT FROM OPEN AREAS,\",341.0,PETIT LARCENY,PL 1552500,M,K,75,0.0,18-24,M,ASIAN / PACIFIC ISLANDER,1013362.0,185075.0,40.674617,-73.895047,POINT (-73.895047 40.674617),POINT (-73.895047 40.674617)\r\n250848355,09/09/2022,339.0,\"LARCENY,PETIT FROM OPEN AREAS,\",341.0,PETIT LARCENY,PL 1552500,M,K,94,0.0,18-24,M,BLACK HISPANIC,996133.0,201007.0,40.71838649,-73.9571327,POINT (-73.9571327 40.71838649),POINT (-73.957133 40.718386)\r\n243758731,04/16/2022,705.0,\"FORGERY,ETC.-MISD.\",358.0,OFFENSES INVOLVING FRAUD,PL 1702000,M,M,5,0.0,18-24,M,WHITE HISPANIC,984023.0,200473.0,40.71692876,-74.00081887,POINT (-74.00081887 40.71692876),POINT (-74.000819 40.716929)\r\n205376733,11/19/2019,439.0,\"LARCENY,GRAND FROM OPEN AREAS, UNATTENDED\",109.0,GRAND LARCENY,PL 1553001,F,M,14,0.0,<18,F,BLACK,987220.0,212676.0,40.750430768,-73.989282176,POINT (-73.98928217599996 40.75043076800006),POINT (-73.989282 40.750431)\r\n182785315,05/16/2018,439.0,\"LARCENY,GRAND FROM OPEN AREAS,UNCLASSIFIED\",109.0,GRAND LARCENY,PL 1553001,F,M,18,0.0,25-44,M,WHITE,988211.0,218129.0,40.765397475,-73.985702264,POINT (-73.98570226399994 40.765397475000036),POINT (-73.985702 40.765397)\r\n147837153,11/16/2015,567.0,\"MARIJUANA, POSSESSION 4 & 5\",235.0,DANGEROUS DRUGS,PL 2211001,M,M,23,0.0,18-24,M,ASIAN / PACIFIC ISLANDER,999924.0,226848.0,40.789315827,-73.943398074,POINT (-73.94339807399997 40.789315827000046),POINT (-73.943398 40.789316)\r\n138147887,08/10/2014,269.0,\"MISCHIEF,CRIMINAL,    UNCL 2ND\",121.0,CRIMINAL MISCHIEF & RELATED OF,PL 145004A,M,Q,103,0.0,25-44,M,BLACK,1042620.0,192259.0,40.694199046,-73.789510913,POINT (-73.78951091299997 40.694199046000044),POINT (-73.789511 40.694199)\r\n137752810,07/16/2014,779.0,\"PUBLIC ADMINISTRATION,UNCLASSIFIED FELONY\",126.0,MISCELLANEOUS PENAL LAW,PL 2155100,F,S,120,0.0,25-44,M,BLACK,962822.0,174282.0,40.645022746,-74.077216847,POINT (-74.077216847 40.645022746000045),POINT (-74.077217 40.645023)\r\n83226372,02/17/2012,567.0,\"MARIJUANA, POSSESSION 4 & 5\",235.0,DANGEROUS DRUGS,PL 2211001,M,B,47,0.0,<18,M,BLACK,1021458.0,258089.0,40.874998873,-73.865459341,POINT (-73.86545934099996 40.87499887300004),POINT (-73.865459 40.874999)\r\n68145613,11/23/2009,109.0,\"ASSAULT 2,1,UNCLASSIFIED\",106.0,FELONY ASSAULT,PL 1200501,F,B,44,0.0,25-44,M,BLACK HISPANIC,1006907.0,241006.0,40.828160463,-73.918132659,POINT (-73.91813265899998 40.82816046300008),POINT (-73.918133 40.82816)\r\n52355933,10/20/2008,339.0,\"LARCENY,PETIT FROM OPEN AREAS,UNCLASSIFIED\",341.0,PETIT LARCENY,PL 1552500,M,Q,112,0.0,<18,M,WHITE,1022107.0,205479.0,40.730596278,-73.863409224,POINT (-73.86340922399995 40.730596278000064),POINT (-73.863409 40.730596)\r\n52080439,10/10/2008,109.0,\"ASSAULT 2,1,UNCLASSIFIED\",106.0,FELONY ASSAULT,PL 1200600,F,K,77,0.0,18-24,M,BLACK,1003508.0,185056.0,40.67459999,-73.930574822,POINT (-73.93057482199998 40.67459999000005),POINT (-73.930575 40.6746)\r\n37473278,01/04/2008,567.0,\"MARIJUANA, POSSESSION 4 & 5\",235.0,DANGEROUS DRUGS,PL 2211001,M,M,34,0.0,45-64,M,BLACK HISPANIC,1003017.0,249041.0,40.850223321,-73.932166295,POINT (-73.93216629499993 40.850223321000044),POINT (-73.932166 40.850223)\r\n34546311,09/21/2007,544.0,\"GAMBLING 2,PROMOTING,UNCLASSIFIED\",350.0,GAMBLING,PL 2250500,M,M,34,0.0,25-44,M,BLACK HISPANIC,1005426.0,254690.0,40.865722681,-73.923440887,POINT (-73.92344088699997 40.86572268100008),POINT (-73.923441 40.865723)\r\n28319500,04/07/2007,625.0,\"DISORDERLY CONDUCT SUBD 1,2,3,4,5,6,7\",572.0,DISORDERLY CONDUCT,PL 2402005,V,M,17,0.0,45-64,M,BLACK,990252.0,211904.0,40.748310285,-73.978339822,POINT (-73.97833982199995 40.74831028500005),POINT (-73.97834 40.74831)\r\n27378491,03/13/2007,969.0,\"TRAFFIC,UNCLASSIFIED INFRACTION\",881.0,OTHER TRAFFIC INFRACTION,VTL051101A,M,Q,105,0.0,25-44,M,BLACK,1055365.0,194132.0,40.699246739,-73.743531091,POINT (-73.74353109099997 40.699246739000046),POINT (-73.743531 40.699247)\r\n25858399,12/19/2006,729.0,\"FORGERY,ETC.,UNCLASSIFIED-FELONY\",113.0,FORGERY,PL 1704001,F,K,77,0.0,45-64,F,BLACK,1001026.0,184418.0,40.672853874,-73.939524214,POINT (-73.93952421399997 40.67285387400005),POINT (-73.939524 40.672854)\r\n25154143,11/06/2006,101.0,ASSAULT 3,344.0,ASSAULT 3 & RELATED OFFENSES,PL 1200001,M,M,19,0.0,45-64,M,WHITE,994519.0,218557.0,40.766567148,-73.962929769,POINT (-73.96292976899997 40.76656714800004),POINT (-73.96293 40.766567)\r\n10971325,04/13/2006,490.0,\"STOLEN PROPERTY 3,POSSESSION\",232.0,POSSESSION OF STOLEN PROPERTY 5,PL 1654000,M,S,120,0.0,25-44,M,WHITE,955330.0,169093.0,40.63075876,-74.104191867,POINT (-74.10419186699994 40.63075876000005),POINT (-74.104192 40.630759)\r\n"
+}

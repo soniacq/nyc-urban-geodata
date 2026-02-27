@@ -1,0 +1,752 @@
+{
+  "geometricType": "Point",
+  "name": null,
+  "crs": null,
+  "nb_rows": 28459,
+  "nb_profiled_rows": 28459,
+  "nb_columns": 10,
+  "columns": [
+    {
+      "name": "countid",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/identifier"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 28459,
+      "mean": 38822283.55356829,
+      "stddev": 42301058.778920375,
+      "coverage": [
+        {
+          "range": {
+            "gte": 10594005.0,
+            "lte": 25001993.0
+          }
+        },
+        {
+          "range": {
+            "gte": 53857758.0,
+            "lte": 103155283.0
+          }
+        },
+        {
+          "range": {
+            "gte": 108545213.0,
+            "lte": 148278422.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "id",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/identifier"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 40,
+      "mean": 148644105.48817596,
+      "stddev": 85791622.89481567,
+      "coverage": [
+        {
+          "range": {
+            "gte": 100009424.0,
+            "lte": 100010022.0
+          }
+        },
+        {
+          "range": {
+            "gte": 100047029.0,
+            "lte": 100062893.0
+          }
+        },
+        {
+          "range": {
+            "gte": 300020241.0,
+            "lte": 300043077.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "date",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/DateTime"
+      ],
+      "num_distinct_values": 27403
+    },
+    {
+      "name": "counts",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 297,
+      "mean": 25.270705225060613,
+      "stddev": 37.70035901304348,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 32.0
+          }
+        },
+        {
+          "range": {
+            "gte": 38.0,
+            "lte": 105.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "status",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 2,
+      "mean": 0.7488667908218841,
+      "stddev": 1.5603415308487152,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 0.0
+          }
+        },
+        {
+          "range": {
+            "gte": 4.0,
+            "lte": 4.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "name",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Text"
+      ]
+    },
+    {
+      "name": "lon",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/longitude"
+      ],
+      "unclean_values_ratio": 0.0,
+      "mean": -73.97247135133146,
+      "stddev": 0.0408915927620424,
+      "coverage": [
+        {
+          "range": {
+            "gte": -74.004109,
+            "lte": -73.96093
+          }
+        },
+        {
+          "range": {
+            "gte": -73.951492,
+            "lte": -73.8525
+          }
+        }
+      ]
+    },
+    {
+      "name": "lat",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/latitude"
+      ],
+      "unclean_values_ratio": 0.0,
+      "mean": 40.725851005238276,
+      "stddev": 0.050673424374061644,
+      "coverage": [
+        {
+          "range": {
+            "gte": 40.5841,
+            "lte": 40.671288
+          }
+        },
+        {
+          "range": {
+            "gte": 40.69981,
+            "lte": 40.75101
+          }
+        },
+        {
+          "range": {
+            "gte": 40.762348,
+            "lte": 40.84219
+          }
+        }
+      ]
+    },
+    {
+      "name": "geom_wkt",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "point_format": "long,lat",
+      "unclean_values_ratio": 0.0
+    },
+    {
+      "name": "geometry",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "point_format": "long,lat",
+      "unclean_values_ratio": 0.0
+    }
+  ],
+  "nb_spatial_columns": 4,
+  "nb_temporal_columns": 1,
+  "nb_numerical_columns": 4,
+  "types": [
+    "numerical",
+    "spatial",
+    "temporal"
+  ],
+  "spatial_coverage": [
+    {
+      "type": "latlong",
+      "column_names": [
+        "lat",
+        "lon"
+      ],
+      "column_indexes": [
+        7,
+        6
+      ],
+      "geohashes4": [
+        {
+          "hash": "1211302313301002",
+          "number": 3561
+        },
+        {
+          "hash": "1211302313301232",
+          "number": 1309
+        },
+        {
+          "hash": "1211302313300332",
+          "number": 1641
+        },
+        {
+          "hash": "1211302313300330",
+          "number": 311
+        },
+        {
+          "hash": "1211302313300113",
+          "number": 1718
+        },
+        {
+          "hash": "1211302313300101",
+          "number": 1690
+        },
+        {
+          "hash": "1211302313300032",
+          "number": 1638
+        },
+        {
+          "hash": "1211302313332033",
+          "number": 457
+        },
+        {
+          "hash": "1211302313311023",
+          "number": 976
+        },
+        {
+          "hash": "1211302313311022",
+          "number": 77
+        },
+        {
+          "hash": "1211302313312122",
+          "number": 1677
+        },
+        {
+          "hash": "1211302313312003",
+          "number": 1147
+        },
+        {
+          "hash": "1211302313310200",
+          "number": 1480
+        },
+        {
+          "hash": "1211302313021123",
+          "number": 1324
+        },
+        {
+          "hash": "1211302313122333",
+          "number": 567
+        },
+        {
+          "hash": "1211302313122332",
+          "number": 1646
+        },
+        {
+          "hash": "1211302313210313",
+          "number": 1278
+        },
+        {
+          "hash": "1211302313232012",
+          "number": 409
+        },
+        {
+          "hash": "1211302313200330",
+          "number": 281
+        },
+        {
+          "hash": "1211302312313202",
+          "number": 652
+        },
+        {
+          "hash": "1211303202200212",
+          "number": 1714
+        },
+        {
+          "hash": "1211303202203221",
+          "number": 1294
+        },
+        {
+          "hash": "1211303202212312",
+          "number": 732
+        },
+        {
+          "hash": "1211303202230202",
+          "number": 602
+        },
+        {
+          "hash": "1211303202233031",
+          "number": 264
+        },
+        {
+          "hash": "1211303202221310",
+          "number": 14
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.072075,
+                40.7156
+              ],
+              [
+                -73.970609,
+                40.624303
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.98612,
+                40.7877
+              ],
+              [
+                -73.94045,
+                40.71053
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.93207,
+                40.857669
+              ],
+              [
+                -73.8525,
+                40.74563
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 28459
+    },
+    {
+      "type": "point",
+      "column_names": [
+        "geom_wkt"
+      ],
+      "column_indexes": [
+        8
+      ],
+      "geohashes4": [
+        {
+          "hash": "1211302313301002",
+          "number": 3561
+        },
+        {
+          "hash": "1211302313301232",
+          "number": 1309
+        },
+        {
+          "hash": "1211302313300332",
+          "number": 1641
+        },
+        {
+          "hash": "1211302313300330",
+          "number": 311
+        },
+        {
+          "hash": "1211302313300113",
+          "number": 1718
+        },
+        {
+          "hash": "1211302313300101",
+          "number": 1690
+        },
+        {
+          "hash": "1211302313300032",
+          "number": 1638
+        },
+        {
+          "hash": "1211302313332033",
+          "number": 457
+        },
+        {
+          "hash": "1211302313311023",
+          "number": 976
+        },
+        {
+          "hash": "1211302313311022",
+          "number": 77
+        },
+        {
+          "hash": "1211302313312122",
+          "number": 1677
+        },
+        {
+          "hash": "1211302313312003",
+          "number": 1147
+        },
+        {
+          "hash": "1211302313310200",
+          "number": 1480
+        },
+        {
+          "hash": "1211302313021123",
+          "number": 1324
+        },
+        {
+          "hash": "1211302313122333",
+          "number": 567
+        },
+        {
+          "hash": "1211302313122332",
+          "number": 1646
+        },
+        {
+          "hash": "1211302313210313",
+          "number": 1278
+        },
+        {
+          "hash": "1211302313232012",
+          "number": 409
+        },
+        {
+          "hash": "1211302313200330",
+          "number": 281
+        },
+        {
+          "hash": "1211302312313202",
+          "number": 652
+        },
+        {
+          "hash": "1211303202200212",
+          "number": 1714
+        },
+        {
+          "hash": "1211303202203221",
+          "number": 1294
+        },
+        {
+          "hash": "1211303202212312",
+          "number": 732
+        },
+        {
+          "hash": "1211303202230202",
+          "number": 602
+        },
+        {
+          "hash": "1211303202233031",
+          "number": 264
+        },
+        {
+          "hash": "1211303202221310",
+          "number": 14
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.072075,
+                40.7156
+              ],
+              [
+                -73.970609,
+                40.624303
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.98612,
+                40.7877
+              ],
+              [
+                -73.94045,
+                40.71053
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.93207,
+                40.857669
+              ],
+              [
+                -73.8525,
+                40.74563
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 28459
+    },
+    {
+      "type": "point",
+      "column_names": [
+        "geometry"
+      ],
+      "column_indexes": [
+        9
+      ],
+      "geohashes4": [
+        {
+          "hash": "1211302313301002",
+          "number": 3561
+        },
+        {
+          "hash": "1211302313301232",
+          "number": 1309
+        },
+        {
+          "hash": "1211302313300332",
+          "number": 1641
+        },
+        {
+          "hash": "1211302313300330",
+          "number": 311
+        },
+        {
+          "hash": "1211302313300113",
+          "number": 1718
+        },
+        {
+          "hash": "1211302313300101",
+          "number": 1690
+        },
+        {
+          "hash": "1211302313300032",
+          "number": 1638
+        },
+        {
+          "hash": "1211302313332033",
+          "number": 457
+        },
+        {
+          "hash": "1211302313311023",
+          "number": 976
+        },
+        {
+          "hash": "1211302313311022",
+          "number": 77
+        },
+        {
+          "hash": "1211302313312122",
+          "number": 1677
+        },
+        {
+          "hash": "1211302313312003",
+          "number": 1147
+        },
+        {
+          "hash": "1211302313310200",
+          "number": 1480
+        },
+        {
+          "hash": "1211302313021123",
+          "number": 1324
+        },
+        {
+          "hash": "1211302313122333",
+          "number": 567
+        },
+        {
+          "hash": "1211302313122332",
+          "number": 1646
+        },
+        {
+          "hash": "1211302313210313",
+          "number": 1278
+        },
+        {
+          "hash": "1211302313232012",
+          "number": 409
+        },
+        {
+          "hash": "1211302313200330",
+          "number": 281
+        },
+        {
+          "hash": "1211302312313202",
+          "number": 652
+        },
+        {
+          "hash": "1211303202200212",
+          "number": 1714
+        },
+        {
+          "hash": "1211303202203221",
+          "number": 1294
+        },
+        {
+          "hash": "1211303202212312",
+          "number": 732
+        },
+        {
+          "hash": "1211303202230202",
+          "number": 602
+        },
+        {
+          "hash": "1211303202233031",
+          "number": 264
+        },
+        {
+          "hash": "1211303202221310",
+          "number": 14
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.072075,
+                40.7156
+              ],
+              [
+                -73.970609,
+                40.624303
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.98612,
+                40.7877
+              ],
+              [
+                -73.94045,
+                40.71053
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.93207,
+                40.857669
+              ],
+              [
+                -73.8525,
+                40.74563
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 28459
+    }
+  ],
+  "temporal_coverage": [
+    {
+      "type": "datetime",
+      "column_names": [
+        "date"
+      ],
+      "column_indexes": [
+        2
+      ],
+      "column_types": [
+        "http://schema.org/DateTime"
+      ],
+      "ranges": [
+        {
+          "range": {
+            "gte": 1387537152.0,
+            "lte": 1506736768.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1518606848.0,
+            "lte": 1634712320.0
+          }
+        },
+        {
+          "range": {
+            "gte": 1650456064.0,
+            "lte": 1751138944.0
+          }
+        }
+      ],
+      "temporal_resolution": "minute"
+    }
+  ],
+  "attribute_keywords": [
+    "countid",
+    "id",
+    "date",
+    "counts",
+    "status",
+    "name",
+    "lon",
+    "lat",
+    "geom_wkt",
+    "geom",
+    "wkt",
+    "geometry"
+  ],
+  "sample": "countid,id,date,counts,status,name,lon,lat,geom_wkt,geometry\r\n71323711,300024007,09/23/2023 07:15:00 AM,2,0,111th St at 50th Ave,-73.8525,40.74563,POINT (-73.8525 40.74563),POINT (-73.8525 40.74563)\r\n10583406,100009425,12/09/2018 08:30:00 AM,18,0,Prospect Park West,-73.971382,40.671288,POINT (-73.971382 40.671288),POINT (-73.971382 40.671288)\r\n10610392,100009425,09/16/2019 11:00:00 AM,46,0,Prospect Park West,-73.971382,40.671288,POINT (-73.971382 40.671288),POINT (-73.971382 40.671288)\r\n10706987,100009425,06/18/2022 03:45:00 PM,87,0,Prospect Park West,-73.971382,40.671288,POINT (-73.971382 40.671288),POINT (-73.971382 40.671288)\r\n11246424,100009427,05/04/2016 04:15:00 PM,33,0,Williamsburg Bridge Bike Path,-73.96145,40.71053,POINT (-73.96145 40.71053),POINT (-73.96145 40.71053)\r\n11290019,100009427,08/01/2017 07:00:00 PM,189,0,Williamsburg Bridge Bike Path,-73.96145,40.71053,POINT (-73.96145 40.71053),POINT (-73.96145 40.71053)\r\n11692866,100009428,04/26/2018 10:30:00 PM,55,0,Ed Koch Queensboro Bridge Shared Path,-73.94045,40.75101,POINT (-73.94045 40.75101),POINT (-73.94045 40.75101)\r\n11721247,100009428,02/16/2019 01:45:00 PM,36,0,Ed Koch Queensboro Bridge Shared Path,-73.94045,40.75101,POINT (-73.94045 40.75101),POINT (-73.94045 40.75101)\r\n12214584,100010017,06/17/2016 05:00:00 PM,14,0,Staten Island Ferry,-74.072075,40.643387,POINT (-74.072075 40.643387),POINT (-74.072075 40.643387)\r\n13038289,100010019,06/11/2018 06:45:00 PM,123,0,Kent Ave btw North 8th St and North 9th St,-73.96093,40.720959,POINT (-73.96093 40.720959),POINT (-73.96093 40.720959)\r\n13664806,100010022,04/17/2018 04:45:00 AM,2,0,Brooklyn Bridge Bike Path,-74.00099,40.709274,POINT (-74.00099 40.709274),POINT (-74.00099 40.709274)\r\n14708994,100051865,01/12/2016 02:00:00 AM,2,4,Manhattan Bridge 2012 to 2019 Bike Counter,-73.98589,40.69981,POINT (-73.98589 40.69981),POINT (-73.98589 40.69981)\r\n15322016,100057316,02/15/2019 01:00:00 PM,0,0,8th Ave at 50th St.,-73.98612,40.762348,POINT (-73.98612 40.762348),POINT (-73.98612 40.762348)\r\n16973760,100062893,12/06/2021 02:15:00 PM,45,0,Manhattan Bridge Bike Comprehensive,-73.99475,40.7156,POINT (-73.99475 40.7156),POINT (-73.99475 40.7156)\r\n104510534,300043074,10/19/2024 07:00:00 AM,0,0,Concrete Plant Park Bikes,-73.88501,40.827664,POINT (-73.88501 40.827664),POINT (-73.88501 40.827664)\r\n113249862,100057316,12/11/2024 07:15:00 PM,47,0,8th Ave at 50th St.,-73.98612,40.762348,POINT (-73.98612 40.762348),POINT (-73.98612 40.762348)\r\n118290013,100009428,01/11/2025 12:00:00 AM,28,0,Ed Koch Queensboro Bridge Shared Path,-73.94045,40.75101,POINT (-73.94045 40.75101),POINT (-73.94045 40.75101)\r\n130222696,300043075,01/07/2025 01:15:00 AM,0,0,Emmons Ave Peds,-73.93099,40.5841,POINT (-73.93099 40.5841),POINT (-73.93099 40.5841)\r\n130572878,100057320,03/30/2025 09:30:00 PM,17,0,Columbus Ave at 86th St.,-73.97505,40.7877,POINT (-73.97505 40.7877),POINT (-73.97505 40.7877)\r\n132946153,300043077,04/14/2025 11:45:00 PM,4,0,High Bridge Peds,-73.93207,40.84219,POINT (-73.93207 40.84219),POINT (-73.93207 40.84219)\r\n"
+}
