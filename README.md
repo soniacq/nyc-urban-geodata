@@ -27,6 +27,14 @@ The generation and preprocessing of each dataset is fully documented in individu
 
 ---
 
+## Sample GeoJSON Datasets
+
+To support rapid prototyping and testing, lightweight sampled versions (<10MB) of each dataset are provided in [`sample_data/geojson/`](./sample_data/geojson/). Each dataset has a corresponding metadata file in [`sample_data/metadata/`](./sample_data/metadata/).
+
+For more details, see the [`sample_data/README.md`](./sample_data/README.md).
+
+---
+
 ## Datasets
 
 ### 1. Bi-Annual Pedestrian Counts
