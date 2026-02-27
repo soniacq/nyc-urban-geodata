@@ -19,6 +19,11 @@ The generation and preprocessing of each dataset is fully documented in individu
 | Automated Traffic Volume Counts | [`NYC_automated_traffic_volume_counts.ipynb`](./notebooks/NYC_automated_traffic_volume_counts.ipynb) |
 | NYPD Arrest Data | [`NYPD_arrests_data.ipynb`](./notebooks/NYPD_arrests_data.ipynb) |
 | NYC Population | [`NYC_population.ipynb`](./notebooks/NYC_population.ipynb) |
+| NYC Unemployment Rate | [`NYC_unemployment_rate.ipynb`](./notebooks/NYC_unemployment_rate.ipynb) |
+| NYC Poverty Rate | [`NYC_poverty_rate.ipynb`](./notebooks/NYC_poverty_rate.ipynb) |
+| NYC Housing Units | [`NYC_housing_units.ipynb`](./notebooks/NYC_housing_units.ipynb) |
+| NYC Issued Licenses | [`NYC_Issued_Licenses.ipynb`](./notebooks/NYC_Issued_Licenses.ipynb) |
+
 
 ---
 
@@ -110,3 +115,55 @@ Population counts by Sub-Borough Area from 2000 to 2023, sourced from the NYU Fu
 **Preprocessing:** Sub-Borough Area names were standardized by normalizing slash spacing and applying authoritative name corrections. Remaining entries were matched to official sub-borough names using high-threshold fuzzy string matching, enabling reliable merging with the official shapefile to attach geometries and borough identifiers.
 
 🔗 [Furman Center CoreData](https://app.coredata.nyc/?mlb=false&ntii=pop_num&mlf=true&ntr=Sub-Borough%20Area&mz=11&vtl=https%3A%2F%2Fthefurmancenter.carto.com%2Fu%2Fnyufc%2Fapi%2Fv2%2Fviz%2F98d1f16e-95fd-4e52-a2b1-b7abaf634828%2Fviz.json&mln=true&mlp=false&mlat=40.715354&nty=2023&mb=roadmap&pf=%7B%7D&md=map&mlv=false&mlng=-74.005293&btl=Community%20District&atp=neighborhoods#)
+
+---
+
+### 9. NYC Unemployment Rate
+
+Unemployment rates by Sub-Borough Area from 2000 to 2023, sourced from the NYU Furman Center CoreData platform.
+
+> **To access the data:** Visit the [Furman Center CoreData page](https://app.coredata.nyc/), select **Unemployment Rate**, and set the Region to **Sub-Borough Area**. This ensures rates are available for each year individually rather than aggregated.
+
+**Preprocessing:** Sub-Borough Area names were standardized by normalizing slash spacing and applying authoritative name corrections. Remaining entries were matched to official sub-borough names using high-threshold fuzzy string matching, enabling reliable merging with the official shapefile to attach geometries and borough identifiers.
+
+🔗 [Furman Center CoreData](https://app.coredata.nyc/?mlb=false&ntii=pop_pov_pct&mlf=true&ntr=Sub-Borough%20Area&mz=9&vtl=https%3A%2F%2Fthefurmancenter.carto.com%2Fu%2Fnyufc%2Fapi%2Fv2%2Fviz%2F98d1f16e-95fd-4e52-a2b1-b7abaf634828%2Fviz.json&mln=true&mlp=false&mlat=40.659867&nty=2023&mb=roadmap&pf=%7B%7D&md=table&mlv=false&mlng=-74.786518&btl=Community%20District&atp=neighborhoods#)
+
+---
+
+### 10. NYC Poverty Rate
+
+Poverty rates by Sub-Borough Area from 2000 to 2023, sourced from the NYU Furman Center CoreData platform.
+
+> **To access the data:** Visit the [Furman Center CoreData page](https://app.coredata.nyc/), select **Poverty Rate**, and set the Region to **Sub-Borough Area**. This ensures rates are available for each year individually rather than aggregated.
+
+**Preprocessing:** Sub-Borough Area names were standardized by normalizing slash spacing and applying authoritative name corrections. Remaining entries were matched to official sub-borough names using high-threshold fuzzy string matching, enabling reliable merging with the official shapefile to attach geometries and borough identifiers.
+
+🔗 [Furman Center CoreData](https://app.coredata.nyc/?mlb=false&ntii=pop_pov_pct&mlf=true&ntr=Sub-Borough%20Area&mz=9&vtl=https%3A%2F%2Fthefurmancenter.carto.com%2Fu%2Fnyufc%2Fapi%2Fv2%2Fviz%2F98d1f16e-95fd-4e52-a2b1-b7abaf634828%2Fviz.json&mln=true&mlp=false&mlat=40.659867&nty=2023&mb=roadmap&pf=%7B%7D&md=table&mlv=false&mlng=-74.786518&btl=Community%20District&atp=neighborhoods#)
+
+---
+
+### 11. NYC Housing Units
+
+Housing unit counts by Sub-Borough Area from 2005 to 2023, sourced from the NYU Furman Center CoreData platform.
+
+> **To access the data:** Visit the [Furman Center CoreData page](https://app.coredata.nyc/), select **Housing Units**, and set the Region to **Sub-Borough Area**. This ensures counts are available for each year individually rather than aggregated.
+
+**Preprocessing:** Sub-Borough Area names were standardized by normalizing slash spacing and applying authoritative name corrections. Remaining entries were matched to official sub-borough names using high-threshold fuzzy string matching, enabling reliable merging with the official shapefile to attach geometries and borough identifiers.
+
+🔗 [Furman Center CoreData](https://app.coredata.nyc/?mlb=false&ntii=unit_num&mlf=true&ntr=Sub-Borough%20Area&mz=9&vtl=https%3A%2F%2Fthefurmancenter.carto.com%2Fu%2Fnyufc%2Fapi%2Fv2%2Fviz%2F98d1f16e-95fd-4e52-a2b1-b7abaf634828%2Fviz.json&mln=true&mlp=false&mlat=40.659867&nty=2023&mb=roadmap&pf=%7B%7D&md=table&mlv=false&mlng=-74.786518&btl=Community%20District&atp=neighborhoods#)
+
+---
+
+### 12. NYC Issued Licenses
+
+Contains licenses issued by the NYC Department of Consumer and Worker Protection (DCWP), formerly the Department of Consumer Affairs (DCA).
+
+**Preprocessing:** Rows with missing coordinates and invalid coordinates (0, 0) are removed.
+
+🔗 [Original Data](https://data.cityofnewyork.us/Business/Issued-Licenses/w7w3-xahh/about_data)
+
+
+
+---
+
+**Note:** A good source of additional NYC data is [Furman Center Neighborhoods](https://www.furmancenter.org/neighborhoods/brooklyn/).
