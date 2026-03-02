@@ -1,5 +1,5 @@
 {
-  "geometricType": "MultiPolygon",
+  "geometricType": null,
   "name": "NYC_housing_units",
   "crs": {
     "type": "name",
@@ -44,363 +44,105 @@
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 59552.94545454546,
-      "stddev": 18402.491056097595,
-      "coverage": [
-        {
-          "range": {
-            "gte": 40554.0,
-            "lte": 59807.0
-          }
-        },
-        {
-          "range": {
-            "gte": 64522.0,
-            "lte": 97884.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2006",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 60202.163636363635,
-      "stddev": 19041.357713016194,
-      "coverage": [
-        {
-          "range": {
-            "gte": 42414.0,
-            "lte": 61145.0
-          }
-        },
-        {
-          "range": {
-            "gte": 66327.0,
-            "lte": 96287.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2007",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 60470.94545454546,
-      "stddev": 18794.01133187057,
-      "coverage": [
-        {
-          "range": {
-            "gte": 45010.0,
-            "lte": 60546.0
-          }
-        },
-        {
-          "range": {
-            "gte": 66043.0,
-            "lte": 97892.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2008",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 60925.92727272727,
-      "stddev": 19018.05544199277,
-      "coverage": [
-        {
-          "range": {
-            "gte": 44054.0,
-            "lte": 61770.0
-          }
-        },
-        {
-          "range": {
-            "gte": 65938.0,
-            "lte": 99286.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2009",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 61375.07272727273,
-      "stddev": 20106.29737972617,
-      "coverage": [
-        {
-          "range": {
-            "gte": 44926.0,
-            "lte": 59889.0
-          }
-        },
-        {
-          "range": {
-            "gte": 65917.0,
-            "lte": 99561.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2010",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 61284.490909090906,
-      "stddev": 18419.644805451822,
-      "coverage": [
-        {
-          "range": {
-            "gte": 43877.0,
-            "lte": 60967.0
-          }
-        },
-        {
-          "range": {
-            "gte": 65586.0,
-            "lte": 96382.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2011",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 61251.07272727273,
-      "stddev": 18326.509989485476,
-      "coverage": [
-        {
-          "range": {
-            "gte": 43567.0,
-            "lte": 66152.0
-          }
-        },
-        {
-          "range": {
-            "gte": 70772.0,
-            "lte": 97382.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2012",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 61550.56363636364,
-      "stddev": 18679.593506151075,
-      "coverage": [
-        {
-          "range": {
-            "gte": 43607.0,
-            "lte": 57287.0
-          }
-        },
-        {
-          "range": {
-            "gte": 58429.0,
-            "lte": 78599.0
-          }
-        },
-        {
-          "range": {
-            "gte": 88915.0,
-            "lte": 138949.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2013",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 61717.92727272727,
-      "stddev": 18865.76573474682,
-      "coverage": [
-        {
-          "range": {
-            "gte": 42963.0,
-            "lte": 56475.0
-          }
-        },
-        {
-          "range": {
-            "gte": 59094.0,
-            "lte": 79797.0
-          }
-        },
-        {
-          "range": {
-            "gte": 93405.0,
-            "lte": 135842.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2014",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 62522.58181818182,
-      "stddev": 18766.236760049014,
-      "coverage": [
-        {
-          "range": {
-            "gte": 44382.0,
-            "lte": 66624.0
-          }
-        },
-        {
-          "range": {
-            "gte": 73782.0,
-            "lte": 100770.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2015",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 62690.763636363634,
-      "stddev": 18813.265727781876,
-      "coverage": [
-        {
-          "range": {
-            "gte": 44009.0,
-            "lte": 59782.0
-          }
-        },
-        {
-          "range": {
-            "gte": 60686.0,
-            "lte": 83541.0
-          }
-        },
-        {
-          "range": {
-            "gte": 92767.0,
-            "lte": 130816.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2016",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 62979.8,
-      "stddev": 18739.875857161336,
-      "coverage": [
-        {
-          "range": {
-            "gte": 44552.0,
-            "lte": 57275.0
-          }
-        },
-        {
-          "range": {
-            "gte": 59573.0,
-            "lte": 83958.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2017",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 63588.38181818182,
-      "stddev": 18922.976760340767,
-      "coverage": [
-        {
-          "range": {
-            "gte": 44245.0,
-            "lte": 60247.0
-          }
-        },
-        {
-          "range": {
-            "gte": 61715.0,
-            "lte": 87668.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2018",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 63991.27272727273,
-      "stddev": 19375.3511869212,
-      "coverage": [
-        {
-          "range": {
-            "gte": 45398.0,
-            "lte": 62494.0
-          }
-        },
-        {
-          "range": {
-            "gte": 64256.0,
-            "lte": 95084.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2019",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 64483.65454545455,
-      "stddev": 19352.272816689267,
-      "coverage": [
-        {
-          "range": {
-            "gte": 43681.0,
-            "lte": 65006.0
-          }
-        },
-        {
-          "range": {
-            "gte": 66971.0,
-            "lte": 98172.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2020",
@@ -412,69 +154,21 @@
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 66216.92727272728,
-      "stddev": 20481.92326538834,
-      "coverage": [
-        {
-          "range": {
-            "gte": 44995.0,
-            "lte": 64831.0
-          }
-        },
-        {
-          "range": {
-            "gte": 67007.0,
-            "lte": 98610.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2022",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 66892.05454545455,
-      "stddev": 22123.485249364378,
-      "coverage": [
-        {
-          "range": {
-            "gte": 41188.0,
-            "lte": 64595.0
-          }
-        },
-        {
-          "range": {
-            "gte": 67050.0,
-            "lte": 101672.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "2023",
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 67392.03636363636,
-      "stddev": 22586.93425127467,
-      "coverage": [
-        {
-          "range": {
-            "gte": 42193.0,
-            "lte": 65261.0
-          }
-        },
-        {
-          "range": {
-            "gte": 68646.0,
-            "lte": 102412.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "Official_SBA_name",
@@ -487,29 +181,7 @@
       "structural_type": "http://schema.org/Integer",
       "semantic_types": [],
       "unclean_values_ratio": 0.0,
-      "num_distinct_values": 55,
-      "mean": 274.4,
-      "stddev": 118.70997507294061,
-      "coverage": [
-        {
-          "range": {
-            "gte": 101.0,
-            "lte": 110.0
-          }
-        },
-        {
-          "range": {
-            "gte": 202.0,
-            "lte": 309.0
-          }
-        },
-        {
-          "range": {
-            "gte": 401.0,
-            "lte": 503.0
-          }
-        }
-      ]
+      "num_distinct_values": 55
     },
     {
       "name": "geometry",
@@ -569,17 +241,15 @@
     "subb",
     "geometry"
   ],
-  "sample": "short_name,long_name,Sub-Borough Area,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,Official_SBA_name,bor_subb,geometry\r\nunit_num,Housing units,Throgs Neck / Co-op City,44246,46355,52611,49872,48805,48438,49272,47621,48391,49378,49599,45659,47765,48651,48074,,52651,58346,59474,Throgs Neck / Co-op City,108,\"MULTIPOLYGON (((-73.789259 40.835817, -73.789429 40.835801, -73.78958 40.835951, -73.789374 40.836345, -73.789133 40.836479, -73.789076...\"\r\nunit_num,Housing units,Pelham Parkway,46183,46902,48075,48518,47748,46019,46689,47177,45238,47688,45963,47176,45359,46473,47069,,53277,47799,46208,Pelham Parkway,109,\"MULTIPOLYGON (((-73.847704 40.871178, -73.847104 40.870978, -73.846804 40.870878, -73.846304 40.870578, -73.845804 40.870378, -73.845445...\"\r\nunit_num,Housing units,Williamsbridge / Baychester,50169,50413,49498,51218,50986,52437,51338,50763,50590,48681,50628,52431,51829,49914,52461,,51051,60867,62071,Williamsbridge / Baychester,110,\"MULTIPOLYGON (((-73.888394 40.90872, -73.886004 40.907978, -73.885404 40.907978, -73.884604 40.907578, -73.884104 40.907478, -73.882904...\"\r\nunit_num,Housing units,Park Slope / Carroll Gardens,50676,50284,50756,54484,52655,55234,52089,51212,53560,53197,54251,51064,50322,53847,50019,,56647,53516,57735,Park Slope / Carroll Gardens,206,\"MULTIPOLYGON (((-73.97706 40.683736, -73.975635 40.683188, -73.974595 40.683448, -73.973452 40.682753, -73.973651 40.682046, -73.973849...\"\r\nunit_num,Housing units,Sunset Park,47346,48234,48704,48434,50120,49678,52042,48978,49103,48602,49065,48750,46064,45903,45983,,47915,46722,44689,Sunset Park,207,\"MULTIPOLYGON (((-73.994885 40.666777, -73.994715 40.666266, -73.994716 40.665986, -73.994804 40.665723, -73.995348 40.665148, -73.995977...\"\r\nunit_num,Housing units,North Crown Heights / Prospect Heights,52216,54172,52761,52636,55979,56344,55674,56197,56829,56941,59412,60882,60247,60263,60403,,65757,52407,51950,North Crown Heights / Prospect Heights,208,\"MULTIPOLYGON (((-73.928777 40.683001, -73.928608 40.682292, -73.925664 40.682644, -73.922395 40.682945, -73.922118 40.682236, -73.921885...\"\r\nunit_num,Housing units,South Crown Heights,40411,42414,41134,43752,42974,41681,44380,43607,42963,44191,47344,46293,48000,47454,48952,,48945,43187,46336,South Crown Heights,209,\"MULTIPOLYGON (((-73.92772 40.66106, -73.925891 40.659489, -73.926716 40.658949, -73.927835 40.659908, -73.927651 40.658145, -73.927488...\"\r\nunit_num,Housing units,Chelsea / Clinton / Midtown,89461,90715,89862,94251,96805,91373,97382,104902,102993,100770,108824,103852,110677,111306,111154,,115616,80316,77155,Chelsea / Clinton / Midtown,303,\"MULTIPOLYGON (((-73.985381 40.76856, -73.982571 40.767415, -73.982396 40.767662, -73.981877 40.767512, -73.981464 40.767774, -73.981008...\"\r\nunit_num,Housing units,Mid-Island,53780,48949,49911,51878,53075,48183,50857,50047,51431,48615,51049,51861,51897,50234,50727,,50760,53652,51472,Mid-Island,502,\"MULTIPOLYGON (((-74.201534 40.614485, -74.19995 40.614047, -74.198544 40.614498, -74.197774 40.612699, -74.199497 40.609597, -74.199716...\"\r\nunit_num,Housing units,South Shore,54076,61704,60546,59152,59889,60218,59988,58944,59566,60406,62450,61878,58766,62305,59681,,63961,59827,64841,South Shore,503,\"MULTIPOLYGON (((-74.186592 40.577076, -74.183696 40.573351, -74.178775 40.571328, -74.176888 40.568569, -74.175802 40.566769, -74.174588...\"\r\nunit_num,Housing units,East Harlem,48908,48684,45291,47305,45868,48240,50390,49201,49540,53101,51082,55045,56576,56081,56147,,56589,61073,60217,East Harlem,309,\"MULTIPOLYGON (((-73.914877 40.793522, -73.920377 40.789522, -73.923377 40.783822, -73.924464 40.782622, -73.925447 40.782155, -73.927213...\"\r\nunit_num,Housing units,Mott Haven / Hunts Point,50895,46646,48871,50506,50664,50507,51963,52654,52200,55561,55589,57275,55274,56250,56443,,57071,57364,56453,Mott Haven / Hunts Point,101,\"MULTIPOLYGON (((-73.896905 40.79598, -73.898305 40.79598, -73.899105 40.79638, -73.897805 40.79708, -73.896905 40.79598)), ((-73.897705...\"\r\nunit_num,Housing units,Morrisania / East Tremont,53093,55752,54592,54448,56331,56004,58440,60192,59752,61607,61157,62272,65863,64444,66971,,67007,64595,70717,Morrisania / East Tremont,102,\"MULTIPOLYGON (((-73.870704 40.878378, -73.870404 40.878278, -73.870322 40.878278, -73.870004 40.878278, -73.869955 40.878229, -73.869904...\"\r\nunit_num,Housing units,Riverdale / Kingsbridge,44212,46275,46959,47232,46191,46190,46120,45148,45894,45403,44122,44552,45703,46452,43681,,44995,39783,42193,Riverdale / Kingsbridge,106,\"MULTIPOLYGON (((-73.897505 40.885978, -73.897205 40.885878, -73.896705 40.885878, -73.895905 40.885778, -73.895186 40.885582, -73.894805...\"\r\nunit_num,Housing units,Borough Park,50785,49181,51866,52059,50670,50573,50036,49619,48744,48391,48635,45881,45876,45908,48050,,54686,59530,62117,Borough Park,212,\"MULTIPOLYGON (((-73.977859 40.647276, -73.977503 40.645035, -73.976573 40.645131, -73.975578 40.64521, -73.974561 40.645355, -73.974392...\"\r\nunit_num,Housing units,East Flatbush,53338,51871,50014,51515,52048,52526,51449,53578,51925,55178,56639,55389,57792,58175,58600,,57266,67803,66209,East Flatbush,217,\"MULTIPOLYGON (((-73.92061 40.660261, -73.9199 40.659567, -73.919547 40.660685, -73.919459 40.660998, -73.919476 40.661739, -73.919003...\"\r\nunit_num,Housing units,Jackson Heights,60552,57107,59612,61770,56819,58419,60619,60469,62240,60451,62597,59573,59398,65316,65006,,60698,59315,59733,Jackson Heights,403,\"MULTIPOLYGON (((-73.889739 40.772663, -73.890345 40.772764, -73.892357 40.773167, -73.893134 40.773664, -73.893737 40.774177, -73.894427...\"\r\nunit_num,Housing units,Flushing / Whitestone,94944,92769,92733,94573,99551,93631,93043,94150,95631,97612,97135,95247,98576,93313,98172,,98610,101672,101340,Flushing / Whitestone,407,\"MULTIPOLYGON (((-73.819404 40.799984, -73.812604 40.796084, -73.812204 40.796584, -73.811704 40.796684, -73.811604 40.797084, -73.811104...\"\r\nunit_num,Housing units,Hillcrest / Fresh Meadows,55316,55670,55872,55194,58843,54564,56124,57289,55840,58323,57032,59330,58537,58181,61550,,60914,58118,59147,Hillcrest / Fresh Meadows,408,\"MULTIPOLYGON (((-73.767081 40.744953, -73.766996 40.744755, -73.766063 40.744981, -73.765489 40.74371, -73.76514 40.742972, -73.765106...\"\r\nunit_num,Housing units,Bayside / Little Neck,43803,49999,48970,47316,46678,47336,45577,46403,44590,44839,45587,45963,44245,45398,45961,,47626,46116,48821,Bayside / Little Neck,411,\"MULTIPOLYGON (((-73.723097 40.765462, -73.722501 40.765284, -73.721801 40.764884, -73.720481 40.763984, -73.72018 40.763669, -73.719577...\"\r\n",
   "_profiling_times": {
     "steps": {
-      "1_load_data": 0.18550150003284216,
-      "2_geo_batch_predict": 2.6685292080510408,
-      "3_process_columns": 0.8395364580210298,
-      "4_latlong_pairing": 0.0004566248971968889,
-      "5_spatial_coverage": 6.566592492163181e-05,
-      "6_temporal_coverage": 3.375113010406494e-06,
-      "sample_extraction": 0.014371125027537346
+      "1_load_data": 0.11410616710782051,
+      "2_geo_batch_predict": 0.5926198340021074,
+      "3_process_columns": 0.02022629207931459,
+      "4_latlong_pairing": 0.00024916697293519974,
+      "5_spatial_coverage": 0,
+      "6_temporal_coverage": 0
     },
-    "total": 28.502039999933913
+    "total": 8.994168167002499
   }
 }

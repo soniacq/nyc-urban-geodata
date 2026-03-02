@@ -1,0 +1,272 @@
+{
+  "geometricType": null,
+  "name": "NYPD_arrests_data",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "nb_rows": 5986020,
+  "nb_profiled_rows": 1450,
+  "nb_columns": 20,
+  "columns": [
+    {
+      "name": "ARREST_KEY",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 5986020
+    },
+    {
+      "name": "ARREST_DATE",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/DateTime"
+      ],
+      "num_distinct_values": 6940
+    },
+    {
+      "name": "PD_CD",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 347
+    },
+    {
+      "name": "PD_DESC",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.000689655172413793,
+      "num_distinct_values": 447
+    },
+    {
+      "name": "KY_CD",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "missing_values_ratio": 0.000689655172413793,
+      "num_distinct_values": 76
+    },
+    {
+      "name": "OFNS_DESC",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.000689655172413793,
+      "num_distinct_values": 90
+    },
+    {
+      "name": "LAW_CODE",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "num_distinct_values": 2627
+    },
+    {
+      "name": "LAW_CAT_CD",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/AdministrativeArea"
+      ],
+      "geo_classifier": {
+        "label": "borough_code",
+        "confidence": 0.6012676954269409,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "ARREST_BORO",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/AdministrativeArea"
+      ],
+      "geo_classifier": {
+        "label": "borough_code",
+        "confidence": 0.6228365898132324,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "ARREST_PRECINCT",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 79
+    },
+    {
+      "name": "JURISDICTION_CODE",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 30
+    },
+    {
+      "name": "AGE_GROUP",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 91
+    },
+    {
+      "name": "PERP_SEX",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 3
+    },
+    {
+      "name": "PERP_RACE",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 8
+    },
+    {
+      "name": "X_COORD_CD",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [],
+      "geo_classifier": {
+        "label": "x_coord",
+        "confidence": 0.9732613563537598,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "Y_COORD_CD",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 77889
+    },
+    {
+      "name": "Latitude",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/latitude"
+      ],
+      "geo_classifier": {
+        "label": "latitude",
+        "confidence": 0.6085742712020874,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "Longitude",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/longitude"
+      ],
+      "geo_classifier": {
+        "label": "longitude",
+        "confidence": 0.9567839503288269,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "Lon_Lat",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "geo_classifier": {
+        "label": "point",
+        "confidence": 0.9571534991264343,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "geometry",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "geo_classifier": {
+        "label": "point",
+        "confidence": 0.9342806339263916,
+        "source": "ml+validated"
+      }
+    }
+  ],
+  "nb_spatial_columns": 6,
+  "nb_temporal_columns": 1,
+  "nb_categorical_columns": 5,
+  "nb_numerical_columns": 7,
+  "types": [
+    "categorical",
+    "numerical",
+    "spatial",
+    "temporal"
+  ],
+  "attribute_keywords": [
+    "ARREST_KEY",
+    "ARREST",
+    "KEY",
+    "ARREST_DATE",
+    "ARREST",
+    "DATE",
+    "PD_CD",
+    "PD",
+    "CD",
+    "PD_DESC",
+    "PD",
+    "DESC",
+    "KY_CD",
+    "KY",
+    "CD",
+    "OFNS_DESC",
+    "OFNS",
+    "DESC",
+    "LAW_CODE",
+    "LAW",
+    "CODE",
+    "LAW_CAT_CD",
+    "LAW",
+    "CAT",
+    "CD",
+    "ARREST_BORO",
+    "ARREST",
+    "BORO",
+    "ARREST_PRECINCT",
+    "ARREST",
+    "PRECINCT",
+    "JURISDICTION_CODE",
+    "JURISDICTION",
+    "CODE",
+    "AGE_GROUP",
+    "AGE",
+    "GROUP",
+    "PERP_SEX",
+    "PERP",
+    "SEX",
+    "PERP_RACE",
+    "PERP",
+    "RACE",
+    "X_COORD_CD",
+    "X",
+    "COORD",
+    "CD",
+    "Y_COORD_CD",
+    "Y",
+    "COORD",
+    "CD",
+    "Latitude",
+    "Longitude",
+    "Lon_Lat",
+    "Lon",
+    "Lat",
+    "geometry"
+  ],
+  "_profiling_times": {
+    "steps": {
+      "1_load_data": 233.8655918331351,
+      "2_geo_batch_predict": 4.2011940001975745,
+      "3_process_columns": 0.41064420784823596,
+      "4_latlong_pairing": 0.0005357088521122932,
+      "5_spatial_coverage": 0,
+      "6_temporal_coverage": 0
+    },
+    "total": 249.89199799997732
+  }
+}

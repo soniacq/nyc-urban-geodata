@@ -1,0 +1,135 @@
+{
+  "geometricType": null,
+  "name": "NYC_bicycle_counts",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "nb_rows": 6884223,
+  "nb_profiled_rows": 3794,
+  "nb_columns": 10,
+  "columns": [
+    {
+      "name": "countid",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/identifier"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 6884223
+    },
+    {
+      "name": "id",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/identifier"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 40
+    },
+    {
+      "name": "date",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/DateTime"
+      ],
+      "num_distinct_values": 454398
+    },
+    {
+      "name": "counts",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 897
+    },
+    {
+      "name": "status",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 2
+    },
+    {
+      "name": "name",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Text"
+      ]
+    },
+    {
+      "name": "lon",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/longitude"
+      ],
+      "geo_classifier": {
+        "label": "longitude",
+        "confidence": 0.9369633793830872,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "lat",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/latitude"
+      ],
+      "unclean_values_ratio": 0.0
+    },
+    {
+      "name": "geom_wkt",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "geo_classifier": {
+        "label": "point",
+        "confidence": 0.9572126865386963,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "geometry",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "geo_classifier": {
+        "label": "point",
+        "confidence": 0.9085271954536438,
+        "source": "ml+validated"
+      }
+    }
+  ],
+  "nb_spatial_columns": 4,
+  "nb_temporal_columns": 1,
+  "nb_numerical_columns": 4,
+  "types": [
+    "numerical",
+    "spatial",
+    "temporal"
+  ],
+  "attribute_keywords": [
+    "countid",
+    "id",
+    "date",
+    "counts",
+    "status",
+    "name",
+    "lon",
+    "lat",
+    "geom_wkt",
+    "geom",
+    "wkt",
+    "geometry"
+  ],
+  "_profiling_times": {
+    "steps": {
+      "1_load_data": 10.24652645806782,
+      "2_geo_batch_predict": 0.7626172911841422,
+      "3_process_columns": 0.4749359169509262,
+      "4_latlong_pairing": 0.00020779180340468884,
+      "5_spatial_coverage": 0,
+      "6_temporal_coverage": 0
+    },
+    "total": 17.549511207966134
+  }
+}

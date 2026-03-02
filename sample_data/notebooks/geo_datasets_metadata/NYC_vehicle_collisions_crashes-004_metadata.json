@@ -1,0 +1,422 @@
+{
+  "geometricType": null,
+  "name": "NYC_vehicle_collision_crashes",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "nb_rows": 1996811,
+  "nb_profiled_rows": 1035,
+  "nb_columns": 30,
+  "columns": [
+    {
+      "name": "CRASH DATE",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/DateTime"
+      ],
+      "num_distinct_values": 4985
+    },
+    {
+      "name": "CRASH TIME",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "num_distinct_values": 1440
+    },
+    {
+      "name": "BOROUGH",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/AdministrativeArea"
+      ],
+      "geo_classifier": {
+        "label": "borough",
+        "confidence": 0.783136248588562,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "ZIP CODE",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/address"
+      ],
+      "geo_classifier": {
+        "label": "zip5",
+        "confidence": 0.682465136051178,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "LATITUDE",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/latitude"
+      ],
+      "geo_classifier": {
+        "label": "latitude",
+        "confidence": 0.5370652079582214,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "LONGITUDE",
+      "structural_type": "http://schema.org/Float",
+      "semantic_types": [
+        "http://schema.org/longitude"
+      ],
+      "geo_classifier": {
+        "label": "longitude",
+        "confidence": 0.9545209407806396,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "LOCATION",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "num_distinct_values": 390427
+    },
+    {
+      "name": "ON STREET NAME",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.2144927536231884,
+      "num_distinct_values": 16717
+    },
+    {
+      "name": "CROSS STREET NAME",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/address"
+      ],
+      "geo_classifier": {
+        "label": "address",
+        "confidence": 0.7339344024658203,
+        "source": "ml"
+      }
+    },
+    {
+      "name": "OFF STREET NAME",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/address"
+      ],
+      "geo_classifier": {
+        "label": "address",
+        "confidence": 0.9494979977607727,
+        "source": "ml"
+      }
+    },
+    {
+      "name": "NUMBER OF PERSONS INJURED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 30
+    },
+    {
+      "name": "NUMBER OF PERSONS KILLED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 7
+    },
+    {
+      "name": "NUMBER OF PEDESTRIANS INJURED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/Boolean"
+      ],
+      "unclean_values_ratio": 0.000966183574879227,
+      "num_distinct_values": 14
+    },
+    {
+      "name": "NUMBER OF PEDESTRIANS KILLED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/Boolean"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 6
+    },
+    {
+      "name": "NUMBER OF CYCLIST INJURED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/Boolean"
+      ],
+      "unclean_values_ratio": 0.000966183574879227,
+      "num_distinct_values": 5
+    },
+    {
+      "name": "NUMBER OF CYCLIST KILLED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/Boolean"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 3
+    },
+    {
+      "name": "NUMBER OF MOTORIST INJURED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 29
+    },
+    {
+      "name": "NUMBER OF MOTORIST KILLED",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/Boolean"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 6
+    },
+    {
+      "name": "CONTRIBUTING FACTOR VEHICLE 1",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.00676328502415459,
+      "num_distinct_values": 61
+    },
+    {
+      "name": "CONTRIBUTING FACTOR VEHICLE 2",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.15169082125603864,
+      "num_distinct_values": 61
+    },
+    {
+      "name": "CONTRIBUTING FACTOR VEHICLE 3",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.9304347826086956,
+      "num_distinct_values": 54
+    },
+    {
+      "name": "CONTRIBUTING FACTOR VEHICLE 4",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.9845410628019323,
+      "num_distinct_values": 43
+    },
+    {
+      "name": "CONTRIBUTING FACTOR VEHICLE 5",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.9932367149758454,
+      "num_distinct_values": 32
+    },
+    {
+      "name": "COLLISION_ID",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/identifier"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 1996811
+    },
+    {
+      "name": "VEHICLE TYPE CODE 1",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.012560386473429951,
+      "num_distinct_values": 1746
+    },
+    {
+      "name": "VEHICLE TYPE CODE 2",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "missing_values_ratio": 0.19420289855072465,
+      "num_distinct_values": 1947
+    },
+    {
+      "name": "VEHICLE TYPE CODE 3",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.9352657004830918,
+      "num_distinct_values": 286
+    },
+    {
+      "name": "VEHICLE TYPE CODE 4",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Text"
+      ],
+      "missing_values_ratio": 0.9845410628019323
+    },
+    {
+      "name": "VEHICLE TYPE CODE 5",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.9932367149758454,
+      "num_distinct_values": 73
+    },
+    {
+      "name": "geometry",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "geo_classifier": {
+        "label": "point",
+        "confidence": 0.9382818937301636,
+        "source": "ml+validated"
+      }
+    }
+  ],
+  "nb_spatial_columns": 7,
+  "nb_temporal_columns": 1,
+  "nb_categorical_columns": 5,
+  "nb_numerical_columns": 9,
+  "types": [
+    "categorical",
+    "numerical",
+    "spatial",
+    "temporal"
+  ],
+  "attribute_keywords": [
+    "CRASH DATE",
+    "CRASH",
+    "DATE",
+    "CRASH TIME",
+    "CRASH",
+    "TIME",
+    "BOROUGH",
+    "ZIP CODE",
+    "ZIP",
+    "CODE",
+    "LATITUDE",
+    "LONGITUDE",
+    "LOCATION",
+    "ON STREET NAME",
+    "ON",
+    "STREET",
+    "NAME",
+    "CROSS STREET NAME",
+    "CROSS",
+    "STREET",
+    "NAME",
+    "OFF STREET NAME",
+    "OFF",
+    "STREET",
+    "NAME",
+    "NUMBER OF PERSONS INJURED",
+    "NUMBER",
+    "OF",
+    "PERSONS",
+    "INJURED",
+    "NUMBER OF PERSONS KILLED",
+    "NUMBER",
+    "OF",
+    "PERSONS",
+    "KILLED",
+    "NUMBER OF PEDESTRIANS INJURED",
+    "NUMBER",
+    "OF",
+    "PEDESTRIANS",
+    "INJURED",
+    "NUMBER OF PEDESTRIANS KILLED",
+    "NUMBER",
+    "OF",
+    "PEDESTRIANS",
+    "KILLED",
+    "NUMBER OF CYCLIST INJURED",
+    "NUMBER",
+    "OF",
+    "CYCLIST",
+    "INJURED",
+    "NUMBER OF CYCLIST KILLED",
+    "NUMBER",
+    "OF",
+    "CYCLIST",
+    "KILLED",
+    "NUMBER OF MOTORIST INJURED",
+    "NUMBER",
+    "OF",
+    "MOTORIST",
+    "INJURED",
+    "NUMBER OF MOTORIST KILLED",
+    "NUMBER",
+    "OF",
+    "MOTORIST",
+    "KILLED",
+    "CONTRIBUTING FACTOR VEHICLE 1",
+    "CONTRIBUTING",
+    "FACTOR",
+    "VEHICLE",
+    "1",
+    "CONTRIBUTING FACTOR VEHICLE 2",
+    "CONTRIBUTING",
+    "FACTOR",
+    "VEHICLE",
+    "2",
+    "CONTRIBUTING FACTOR VEHICLE 3",
+    "CONTRIBUTING",
+    "FACTOR",
+    "VEHICLE",
+    "3",
+    "CONTRIBUTING FACTOR VEHICLE 4",
+    "CONTRIBUTING",
+    "FACTOR",
+    "VEHICLE",
+    "4",
+    "CONTRIBUTING FACTOR VEHICLE 5",
+    "CONTRIBUTING",
+    "FACTOR",
+    "VEHICLE",
+    "5",
+    "COLLISION_ID",
+    "COLLISION",
+    "ID",
+    "VEHICLE TYPE CODE 1",
+    "VEHICLE",
+    "TYPE",
+    "CODE",
+    "1",
+    "VEHICLE TYPE CODE 2",
+    "VEHICLE",
+    "TYPE",
+    "CODE",
+    "2",
+    "VEHICLE TYPE CODE 3",
+    "VEHICLE",
+    "TYPE",
+    "CODE",
+    "3",
+    "VEHICLE TYPE CODE 4",
+    "VEHICLE",
+    "TYPE",
+    "CODE",
+    "4",
+    "VEHICLE TYPE CODE 5",
+    "VEHICLE",
+    "TYPE",
+    "CODE",
+    "5",
+    "geometry"
+  ],
+  "_profiling_times": {
+    "steps": {
+      "1_load_data": 7.518703582929447,
+      "2_geo_batch_predict": 0.7746846249792725,
+      "3_process_columns": 0.246770708123222,
+      "4_latlong_pairing": 8.033402264118195e-05,
+      "5_spatial_coverage": 0,
+      "6_temporal_coverage": 0
+    },
+    "total": 11.490476459031925
+  }
+}
