@@ -1,0 +1,575 @@
+{
+  "geometricType": "Point",
+  "name": "NYC_automated_traffic_volume_counts",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "nb_rows": 24600,
+  "nb_profiled_rows": 11864,
+  "nb_columns": 15,
+  "columns": [
+    {
+      "name": "RequestID",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/identifier"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 1570,
+      "mean": 20335.152056641942,
+      "stddev": 10438.692844229336,
+      "coverage": [
+        {
+          "range": {
+            "gte": 1688.0,
+            "lte": 12501.0
+          }
+        },
+        {
+          "range": {
+            "gte": 14806.0,
+            "lte": 25016.0
+          }
+        },
+        {
+          "range": {
+            "gte": 26512.0,
+            "lte": 36961.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Boro",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 5
+    },
+    {
+      "name": "Yr",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 20,
+      "mean": 2015.173971679029,
+      "stddev": 4.346882941373916,
+      "coverage": [
+        {
+          "range": {
+            "gte": 2008.0,
+            "lte": 2012.0
+          }
+        },
+        {
+          "range": {
+            "gte": 2013.0,
+            "lte": 2017.0
+          }
+        },
+        {
+          "range": {
+            "gte": 2018.0,
+            "lte": 2024.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "M",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 12,
+      "mean": 6.360080917060014,
+      "stddev": 3.3065931389125747,
+      "coverage": [
+        {
+          "range": {
+            "gte": 1.0,
+            "lte": 5.0
+          }
+        },
+        {
+          "range": {
+            "gte": 6.0,
+            "lte": 9.0
+          }
+        },
+        {
+          "range": {
+            "gte": 10.0,
+            "lte": 12.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 31,
+      "mean": 15.669588671611598,
+      "stddev": 8.605033044364072,
+      "coverage": [
+        {
+          "range": {
+            "gte": 1.0,
+            "lte": 12.0
+          }
+        },
+        {
+          "range": {
+            "gte": 13.0,
+            "lte": 22.0
+          }
+        },
+        {
+          "range": {
+            "gte": 23.0,
+            "lte": 31.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "HH",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 24,
+      "mean": 11.572993931220498,
+      "stddev": 6.9120936560503266,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 8.0
+          }
+        },
+        {
+          "range": {
+            "gte": 9.0,
+            "lte": 16.0
+          }
+        },
+        {
+          "range": {
+            "gte": 17.0,
+            "lte": 23.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "MM",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 8,
+      "mean": 22.871291301416047,
+      "stddev": 16.808825663328776,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 15.0
+          }
+        },
+        {
+          "range": {
+            "gte": 30.0,
+            "lte": 30.0
+          }
+        },
+        {
+          "range": {
+            "gte": 45.0,
+            "lte": 45.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vol",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 989,
+      "mean": 109.97167902899528,
+      "stddev": 176.6275507370778,
+      "coverage": [
+        {
+          "range": {
+            "gte": 0.0,
+            "lte": 137.0
+          }
+        },
+        {
+          "range": {
+            "gte": 164.0,
+            "lte": 490.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "SegmentID",
+      "structural_type": "http://schema.org/Integer",
+      "semantic_types": [
+        "http://schema.org/identifier"
+      ],
+      "unclean_values_ratio": 0.0,
+      "num_distinct_values": 2295,
+      "mean": 422981.398853675,
+      "stddev": 1674140.9703319534,
+      "coverage": [
+        {
+          "range": {
+            "gte": 9525.0,
+            "lte": 90610.0
+          }
+        },
+        {
+          "range": {
+            "gte": 109335.0,
+            "lte": 222101.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "WktGeom",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "geo_classifier": {
+        "label": "point",
+        "confidence": 0.9584452509880066,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "street",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/address"
+      ],
+      "geo_classifier": {
+        "label": "address",
+        "confidence": 0.8314372897148132,
+        "source": "ml"
+      }
+    },
+    {
+      "name": "fromSt",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/AdministrativeArea"
+      ],
+      "geo_classifier": {
+        "label": "borough",
+        "confidence": 0.6689117550849915,
+        "source": "ml+validated"
+      }
+    },
+    {
+      "name": "toSt",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [],
+      "missing_values_ratio": 0.0005900202292650034,
+      "num_distinct_values": 1507
+    },
+    {
+      "name": "Direction",
+      "structural_type": "http://schema.org/Text",
+      "semantic_types": [
+        "http://schema.org/Enumeration"
+      ],
+      "num_distinct_values": 6
+    },
+    {
+      "name": "geometry",
+      "structural_type": "http://schema.org/GeoCoordinates",
+      "semantic_types": [],
+      "geo_classifier": {
+        "label": "point",
+        "confidence": 0.9483304619789124,
+        "source": "ml+validated"
+      }
+    }
+  ],
+  "nb_spatial_columns": 4,
+  "nb_categorical_columns": 2,
+  "nb_numerical_columns": 8,
+  "types": [
+    "categorical",
+    "numerical",
+    "spatial"
+  ],
+  "spatial_coverage": [
+    {
+      "type": "point",
+      "column_names": [
+        "geometry"
+      ],
+      "column_indexes": [
+        14
+      ],
+      "geohashes4": [
+        {
+          "hash": "121130231330",
+          "number": 1102
+        },
+        {
+          "hash": "121130231331",
+          "number": 1212
+        },
+        {
+          "hash": "121130231333",
+          "number": 584
+        },
+        {
+          "hash": "121130231332",
+          "number": 550
+        },
+        {
+          "hash": "121130231321",
+          "number": 784
+        },
+        {
+          "hash": "121130231322",
+          "number": 226
+        },
+        {
+          "hash": "121130231320",
+          "number": 548
+        },
+        {
+          "hash": "121130231323",
+          "number": 625
+        },
+        {
+          "hash": "121130231303",
+          "number": 45
+        },
+        {
+          "hash": "121130231302",
+          "number": 286
+        },
+        {
+          "hash": "121130231300",
+          "number": 206
+        },
+        {
+          "hash": "121130231312",
+          "number": 93
+        },
+        {
+          "hash": "121130231313",
+          "number": 18
+        },
+        {
+          "hash": "121130231211",
+          "number": 318
+        },
+        {
+          "hash": "121130231210",
+          "number": 89
+        },
+        {
+          "hash": "121130231213",
+          "number": 44
+        },
+        {
+          "hash": "121130231231",
+          "number": 496
+        },
+        {
+          "hash": "121130231233",
+          "number": 53
+        },
+        {
+          "hash": "121130231032",
+          "number": 120
+        },
+        {
+          "hash": "121130231023",
+          "number": 46
+        },
+        {
+          "hash": "121130231122",
+          "number": 12
+        },
+        {
+          "hash": "121130233101",
+          "number": 241
+        },
+        {
+          "hash": "121130233103",
+          "number": 157
+        },
+        {
+          "hash": "121130233100",
+          "number": 135
+        },
+        {
+          "hash": "121130233102",
+          "number": 40
+        },
+        {
+          "hash": "121130233110",
+          "number": 315
+        },
+        {
+          "hash": "121130233113",
+          "number": 130
+        },
+        {
+          "hash": "121130233111",
+          "number": 177
+        },
+        {
+          "hash": "121130233112",
+          "number": 105
+        },
+        {
+          "hash": "121130233011",
+          "number": 171
+        },
+        {
+          "hash": "121130233013",
+          "number": 98
+        },
+        {
+          "hash": "121130320223",
+          "number": 875
+        },
+        {
+          "hash": "121130320222",
+          "number": 314
+        },
+        {
+          "hash": "121130320220",
+          "number": 545
+        },
+        {
+          "hash": "121130320221",
+          "number": 386
+        },
+        {
+          "hash": "121130320232",
+          "number": 430
+        },
+        {
+          "hash": "121130320230",
+          "number": 4
+        },
+        {
+          "hash": "121130322010",
+          "number": 146
+        },
+        {
+          "hash": "121130322001",
+          "number": 107
+        },
+        {
+          "hash": "121130322000",
+          "number": 31
+        }
+      ],
+      "ranges": [
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -74.178103,
+                40.713625
+              ],
+              [
+                -73.928221,
+                40.551296
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.983221,
+                40.889347
+              ],
+              [
+                -73.827143,
+                40.716433
+              ]
+            ]
+          }
+        },
+        {
+          "range": {
+            "type": "envelope",
+            "coordinates": [
+              [
+                -73.904675,
+                40.763176
+              ],
+              [
+                -73.726169,
+                40.595753
+              ]
+            ]
+          }
+        }
+      ],
+      "number": 11864
+    }
+  ],
+  "attribute_keywords": [
+    "RequestID",
+    "Request",
+    "ID",
+    "Boro",
+    "Yr",
+    "M",
+    "D",
+    "HH",
+    "MM",
+    "Vol",
+    "SegmentID",
+    "Segment",
+    "ID",
+    "WktGeom",
+    "Wkt",
+    "Geom",
+    "street",
+    "fromSt",
+    "from",
+    "St",
+    "toSt",
+    "to",
+    "St",
+    "Direction",
+    "geometry"
+  ],
+  "sample": "RequestID,Boro,Yr,M,D,HH,MM,Vol,SegmentID,WktGeom,street,fromSt,toSt,Direction,geometry\r\n9327,Queens,2012,5,28,23,45,1,55416,POINT (1036980.6 185156.5),128 ST,GOTHAM RD,ROCKAWAY BLVD,NB,POINT (-73.809902 40.674731)\r\n9804,Manhattan,2011,3,19,5,45,62,33001,POINT (987070.2 209321.1),5TH AVE BET 22ND & 23RD STS,E 22 ST/W 22 ST,W 23 ST/E 23 ST,SB,POINT (-73.989823 40.741214)\r\n30546,Brooklyn,2019,6,2,6,45,0,31127,POINT (997270.0156816653 199359.86657860072),RODNEY STREET,Meeker Avenue,Ainslie Street,NB,POINT (-73.953034 40.713863)\r\n1296,Queens,2011,8,27,16,0,19,129615,POINT (1007236.7 200885.7),GRAND AV,57 ST,PAGE PL,WB,POINT (-73.917077 40.718031)\r\n7305,Manhattan,2010,10,13,1,0,59,158736,POINT (992835.8 217553.6),S/B PARK AVE @ E 60 ST,E 60 ST,E 61 ST,SB,POINT (-73.969006 40.763806)\r\n37697,Brooklyn,2024,6,10,1,30,50,28962,POINT (990590.8197336476 188336.94708352597),FLATBUSH AVENUE,Atlantic Avenue,Eastern Parkway Line,NB,POINT (-73.977138 40.683615)\r\n28523,Queens,2018,6,27,18,45,65,130136,POINT (1015122.7159132276 201843.65558179285),ELIOT AVENUE,Alley,69 Lane,WB,POINT (-73.888624 40.720636)\r\n11693,Queens,2013,4,27,21,45,91,148404,POINT (1056734.3 157231.7),SEAGIRT BLVD,BEACH 9 ST,DEAD END,EB,POINT (-73.738988 40.597944)\r\n11539,Bronx,2013,1,5,17,15,34,78903,POINT (1016006.6 242238.9),W FARMS RD,JENNINGS ST,E 172 ST,NB,POINT (-73.885245 40.831507)\r\n16236,Brooklyn,2013,12,6,21,15,236,47355,POINT (1011154.9 187353.7),BUSHWICK AV,STEWART ST,CONWAY ST,WB,POINT (-73.902997 40.680878)\r\n21151,Bronx,2016,1,19,20,15,103,70601,POINT (1009536.3 239574.4),3 AV,E 163 ST,BOSTON RD,SB,POINT (-73.908636 40.824215)\r\n8646,Bronx,2012,6,3,1,15,36,77855,POINT (1016494.7 239037.7),BRUCKNER BOULEVARD,CENSUS BOUNDARY,BRONX RIVER AVENUE,EB,POINT (-73.883496 40.822719)\r\n21164,Brooklyn,2015,10,3,5,0,6,19870,POINT (984435.103184263 164415.13333051358),NEW UTRECHT AVENUE,72 Street,16 Avenue,NB,POINT (-73.999333 40.617958)\r\n35707,Brooklyn,2023,1,11,22,0,151,151516,POINT (1004852.0243700822 162537.73371917408),FLATBUSH AVENUE,Dead end,Avenue S,NB,POINT (-73.925797 40.612781)\r\n25281,Manhattan,2017,2,18,20,15,9,261732,POINT (980988.6423297726 194810.649319351),SOUTH STREET,Dead End,Nassau Street Line,NS,POINT (-74.011762 40.701386)\r\n34045,Brooklyn,2021,11,18,9,30,15,163602,POINT (991345.0009385087 174844.2848418405),OCEAN PARKWAY,Dead End,Dead end,NB,POINT (-73.974433 40.646581)\r\n2163,Queens,2009,8,23,13,30,0,45415,POINT (1009150 196146.1),N/B MENAHAN ST @ ONDERDONK AVE,SENECA AV,ONDERDONK AV,NB,POINT (-73.910193 40.705017)\r\n29023,Manhattan,2018,10,20,21,0,217,158626,POINT (992781.3022381396 217590.22210737958),PARK AVENUE,Astoria Line,East 61 Street,SB,POINT (-73.969203 40.763907)\r\n36179,Bronx,2023,6,5,22,15,1,79134,POINT (1016717.7023888195 244894.29526639226),CROSS BRONX EXPRESSWAY SR NORTH,Longfellow Avenue,Bryant Avenue,WB,POINT (-73.882662 40.838793)\r\n12268,Brooklyn,2010,7,15,1,30,145,43241,POINT (1003456.9 180651.5),REMSEN AVE NB APPROACHING EAST NEY YORK AVE,E NEW YORK AV,E 51 ST,NB,POINT (-73.93077 40.662502)\r\n",
+  "_profiling_times": {
+    "steps": {
+      "1_load_data": 0.43648645910434425,
+      "2_geo_batch_predict": 2.6081247909460217,
+      "3_process_columns": 3.068601083010435,
+      "4_latlong_pairing": 0.00013408297672867775,
+      "5_spatial_coverage": 0.23834079084917903,
+      "6_temporal_coverage": 1.8750084564089775e-05,
+      "sample_extraction": 0.04817524994723499
+    },
+    "total": 42.4993963339366
+  }
+}
