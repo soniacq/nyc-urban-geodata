@@ -90,7 +90,11 @@ Provides average concentrations of multiple air pollutants (e.g., NO₂, PM2.5, 
 
 Combines environmental (surface temperature, % green space) and social indicators (% AC access, median income, % Black residents) to measure neighborhood heat vulnerability. HVI scores range from **1** (lowest risk) to **5** (highest risk), reporting relative heat mortality risk for each ZIP Code Tabulation Area (MODZCTA) in NYC.
 
-🔗 [Dataset on HuggingFace](https://huggingface.co/datasets/oscur/NYC_heat_vulnerability)
+**Preprocessing:** HVI dataset is first loaded from a CSV file and the ZCTA identifiers are standardized to five-digit strings to preserve leading zeros. ZCTA polygon geometries are then loaded from the U.S. Census TIGER/Line 2020 shapefile using GeoPandas. The HVI table is joined with the ZCTA geometries using the ZCTA code as the key, keeping only records present in both datasets. Finally, a new GeoDataFrame (geo_HVI) is created containing the HVI attributes and the corresponding polygon geometry, making the dataset ready for spatial visualization and analysis.
+
+**Sources:**
+- [Heat Vulnerability Index](https://data.cityofnewyork.us/Health/Heat-Vulnerability-Index-Rankings/4mhf-duep/about_data)
+- [Census TIGER/Line 2020 shapefile](https://www2.census.gov/geo/tiger/TIGER2020/ZCTA520/tl_2020_us_zcta520.zip)
 
 ---
 
